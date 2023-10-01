@@ -14,13 +14,12 @@ const config = {
   url: 'https://COSMIIC-Inc.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/COSMIIC-Inc.github.io/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'COSMIIC-Inc', // Usually your GitHub org/user name.
   projectName: 'COSMIIC-Inc.github.io', // Usually your repo name.
-
   deploymentBranch: 'main', //  deployment branch on COSMIIC-Inc.github.io repo
 
   onBrokenLinks: 'throw',
@@ -63,9 +62,9 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Please consider giving us money',
-        backgroundColor: '#000000',
-        textColor: '#fffff',
+          'Announcement: Please consider giving us money',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
         isCloseable: true,
       },
 
