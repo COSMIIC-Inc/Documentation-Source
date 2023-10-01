@@ -21,6 +21,8 @@ const config = {
   organizationName: 'COSMIIC-Inc', // Usually your GitHub org/user name.
   projectName: 'COSMIIC-Inc.github.io', // Usually your repo name.
 
+  deploymentBranch: 'main', //  deployment branch on COSMIIC-Inc.github.io repo
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
