@@ -1,5 +1,6 @@
 # Dependencies
-/node_modules
+# prefer that these are in, so that project can be fully downloaded and built may need to update them but not sure how
+#/node_modules
 
 # Production
 /build
