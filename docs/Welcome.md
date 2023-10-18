@@ -19,3 +19,6 @@ slug: /
 ![he-man](./img/hey.gif)
 
 Lots of text to fill the space. Lots of text to fill the space.Lots of text to fill the space. Lots of text to fill the space.Lots of text to fill the space. Lots of text to fill the space. Lots of text to fill the space. Lots of text to fill the space. Lots of text to fill the space. Lots of text to fill the space. Lots of text to fill the space. Lots of text to fill the space. Lots of text to fill the space. Lots of text to fill the space.
+
+## Submitting support requests
+[Submit a request for documents](https://cosmiic.atlassian.net/servicedesk/customer/portal/1/group/1/create/19)
