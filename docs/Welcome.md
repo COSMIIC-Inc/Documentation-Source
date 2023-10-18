@@ -24,3 +24,5 @@ Lots of text to fill the space. Lots of text to fill the space.Lots of text to f
 [Submit a request for documents](https://cosmiic.atlassian.net/servicedesk/customer/portal/1/group/1/create/19)
 
 [Git-GitHub course.pdf](https://github.com/COSMIIC-Inc/Documentation/files/13029170/Git-GitHub.course.pdf)
+[COSMIIC Overview Poster June 2023.pdf](https://github.com/COSMIIC-Inc/Documentation/files/13029542/COSMIIC.Overview.Poster.June.2023.pdf)
+
