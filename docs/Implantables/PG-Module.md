@@ -7,6 +7,7 @@ sidebar_position: 2
 The thing that stimulates muscles
 
 ---
+![image](https://github.com/COSMIIC-Inc/Documentation/assets/148380716/95463842-9ec9-441e-bf22-94c8724b1651)
 
 ## Product Description
 
