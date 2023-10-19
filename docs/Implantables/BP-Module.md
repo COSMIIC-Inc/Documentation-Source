@@ -7,7 +7,7 @@ sidebar_position: 3
 The thing that takes in signals
 
 ---
-
+![image](./img/image.png))
 ## Product Description
 
 Myoelectric signals (MES) from muscles under voluntary control are recorded by the 
