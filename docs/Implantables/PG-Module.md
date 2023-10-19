@@ -7,7 +7,7 @@ sidebar_position: 2
 The thing that stimulates muscles
 
 ---
-![image](./img/image.png))
+![pulse](./img/pulse.png))
 
 ## Product Description
 
