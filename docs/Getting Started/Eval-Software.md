@@ -2,4 +2,4 @@
 sidebar_position: 2
 ---
 
-# Site Navigation
+# Evaluation Board Software
