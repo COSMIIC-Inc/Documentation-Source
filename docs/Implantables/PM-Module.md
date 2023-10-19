@@ -4,12 +4,14 @@ sidebar_position: 1
 
 # Power Module
 
-The control hub of our flagship product
+The control hub of our flagship system
+
+---
 
 ## Product Description
 
 ![NNP Device](./img/nnp.jpg)
-The Power Module (PM1) is an implanted module that has two key functions.  First, the PM1 houses the rechargeable Li-ion power supply for the entire NNP implanted system, along with the required recharging link and circuitry.  Second, the PM1 contains the wireless MedRadio link for transcutaneous communication and system programming.  The PM1 connects to the network through the Network Segment Cable (NC2).  The PM1 places power onto the network cable for distribution to all remote modules.
+The Power Module (PM1) is an implanted module that has two key functions.  First, the PM1 houses the rechargeable Li-ion power supply for the entire NNP implanted system, along with the required recharging link and circuitry.  Second, the PM1 contains the wireless MedRadio link for transcutaneous communication and system programming.  The PM1 connects to the network through the Network Segment Cable (NC2).  The PM1 places power onto the network cable for distribution to all remote module
 
 The PM1 is designed for easy surgical replacement, and replacement of the PM1 is an anticipated and expected event based on the eventual depletion of the Li-ion batteries.  PM1 replacement is accomplished through a single small incision, disconnection of the network segment connection, and replacement with a new PM1.  This procedure is expected to be an outpatient procedure requiring less than 30 minutes.
 
