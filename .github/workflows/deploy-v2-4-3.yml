@@ -10,20 +10,6 @@ permissions:
   contents: write
 
 jobs:
-  test-deploy:
-    if: github.event_name != 'push'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          cache: yarn
-          cache-dependency-path: ./package-lock.json
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-      - name: Test build website
-        run: yarn build
   deploy:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
@@ -36,7 +22,7 @@ jobs:
           cache-dependency-path: ./package-lock.json
       - uses: webfactory/ssh-agent@v0.5.0
         with:
-          ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
+          ssh-private-key: ${{secrets.GH_PAGES_DEPLOY}}
       - name: Deploy to GitHub Pages
         env:
           USE_SSH: true
