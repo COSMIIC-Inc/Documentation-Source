@@ -27,7 +27,7 @@ This command generates static content into the `build` directory and can be serv
 ### Deployment
 
 Using SSH:
-
+(must configure deploy key in deployment repo and secrete private ssh key with pem format in source repo)
 ```
 $ USE_SSH=true yarn deploy
 

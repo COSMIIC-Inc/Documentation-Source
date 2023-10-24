@@ -37,3 +37,4 @@ jobs:
           git config --global user.name "crexroth"
           yarn install --frozen-lockfile
           yarn deploy
+          
