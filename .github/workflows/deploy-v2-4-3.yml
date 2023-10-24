@@ -24,7 +24,7 @@ jobs:
           cache: yarn
           cache-dependency-path: ./package-lock.json
 
-      - name: Set SSH for remote host as private key  
+      - name: Set SSH for remote host as private key in pem format 
         uses: webfactory/ssh-agent@v0.8.0
         with:
           ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
