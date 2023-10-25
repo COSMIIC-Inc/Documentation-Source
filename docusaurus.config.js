@@ -60,7 +60,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Announcement: Please consider giving us money',
+          'Announcement: We will be at TetraHand World Congress (Nov 9-11, 2023) and SfN (Nov 11-15, 2023) ',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,
