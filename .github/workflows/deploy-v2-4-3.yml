@@ -21,7 +21,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: yarn
+          cache: npm
           cache-dependency-path: ./package-lock.json
 
       - name: Set SSH for remote host as private key in pem format 
@@ -33,8 +33,11 @@ jobs:
         env:
           USE_SSH: true
         run: |
+          echo "Configure git settings"
           git config --global user.email "crexroth@metrohealth.org"
           git config --global user.name "crexroth"
-          yarn install --frozen-lockfile
-          yarn deploy
+          echo "Install dependencies (clean install) based on package-lock.json"
+          npm ci
+          echo "Build and deploy site to COSMIIC-Inc.github.io"
+          npm run deploy
           

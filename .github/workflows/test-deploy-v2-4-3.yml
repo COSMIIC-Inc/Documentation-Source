@@ -1,4 +1,4 @@
-name: Test deployment
+name: Test build on pull request
 
 on:
   pull_request:
@@ -11,16 +11,20 @@ permissions:
 
 jobs:
   test-deploy:
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout the source repo
+        uses: actions/checkout@v3
+
+      - name: Set up node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: yarn
+          cache: npm
           cache-dependency-path: ./package-lock.json
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-      - name: Test build website
-        run: yarn build
+      - name: Install dependencies (clean install) based on package-lock.json
+        run: npm ci
+      - name: Build site on test client
+        run: npm run build
  
