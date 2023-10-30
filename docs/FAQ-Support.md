@@ -28,6 +28,6 @@ We will be at TetraHand World Congress from November 9-11, 2023 and Society for 
 
 :::danger How can I stay up to date with COSMIIC happenings?
 
-Follow the [COSMIIC LinkedIn](https://www.linkedin.com/company/cosmiic/) page!
+Follow the **[COSMIIC LinkedIn](https://www.linkedin.com/company/cosmiic/)** page!
 
 :::
