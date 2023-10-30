@@ -4,10 +4,10 @@ sidebar_position: 3
 
 # Surgical Tools
 
-How we get the thing in
+The way to get the things in
 
 ---
 
-## Product Description
+## Coming soon...
 
-Coming soon!!!
+Specifications, drawings, and test data are on their way

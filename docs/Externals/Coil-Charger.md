@@ -8,6 +8,6 @@ The thing that charges the Power Module
 
 ---
 
-## Product Description
+## Coming soon...
 
-Coming soon!!!
+Specifications, drawings, and test data are on their way

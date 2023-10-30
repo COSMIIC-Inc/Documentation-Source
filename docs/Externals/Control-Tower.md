@@ -4,10 +4,10 @@ sidebar_position: 2
 
 # Control Tower
 
-The tower that controls the Power Module
+The thing that controls the Power Module
 
 ---
 
-## Product Description
+## Coming soon...
 
-Coming soon!!!
+Specifications, drawings, and test data are on their way
