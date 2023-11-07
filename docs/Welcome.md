@@ -13,7 +13,7 @@ We are establishing and sustaining an open source, modular network of active imp
 
 The COSMIIC concept is based on an existing platform implantable system, the Networked Neuroprosthetic (NNP) System, which was invented and developed at Case Western Reserve University by the investigative team. The first incarnation of the NNP System has already been developed with success demonstrated by an early feasibility human study, providing a strong existence-proof of the basic concept. Our goal with establishing COSMIIC is to make this system available to the entire research community in an open source, collaborative environment.
 
-Catch up with our most recent poster: :file_folder: **[COSMIIC Overview June 2023.pdf](https://github.com/COSMIIC-Inc/Documentation/files/13029542/COSMIIC.Overview.Poster.June.2023.pdf)**
+Catch up with our most recent poster: :file_folder: **[COSMIIC Overview November 2023.pdf](./img/COSMIIC-Poster-SfN.pdf)**
 
 ### Navigating the Site
 
