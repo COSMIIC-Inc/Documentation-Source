@@ -30,3 +30,8 @@
   --ifm-link-color: #0C6F6E;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/** Styling for centering resource videos from Youtube with the react-player module. May need to adjust for mobile */
+.youtube-player {
+  padding-left: 16%;
+}
