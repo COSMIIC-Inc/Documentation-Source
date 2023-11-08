@@ -5,6 +5,8 @@ slug: /
 
 # Welcome to COSMIIC!!
 
+Engineering open-source medical devices.
+
 ---
 
 ### What We Do
@@ -15,13 +17,17 @@ The COSMIIC concept is based on an existing platform implantable system, the Net
 
 Catch up with our most recent poster: :file_folder: **[COSMIIC Overview November 2023.pdf](./img/COSMIIC-Poster-SfN.pdf)**
 
+<div class= 'pdf-viewer'>
+    <iframe src="https://drive.google.com/file/d/1u5NPPFfDxHNcs084oVVRZxefSBbJzx-m/preview" width="640" height="480" allow="autoplay"></iframe>
+</div>
+
 ### Navigating the Site
 
 > - Check out the summarized material about our system components under the **[Implantables](./category/implantables)** sidebar.
 >
 > - Download our Investigational Device Exemption (IDE) through the **[Regulatory](./Regulatory)** sidebar.
 >
-> - Head to our **[FAQ](./FAQ-Support)** section for additional info and timelines.
+> - Head to our **[Resources & FAQ](./FAQ-Support)** section for additional info and timelines.
 
 The rest of the sidebar categories will be populated soon!
 
