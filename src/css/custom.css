@@ -35,3 +35,8 @@
 .youtube-player {
   padding-left: 16%;
 }
+
+/** Styling for centering resource PDFs from Google Drive embed with the iframe module. May need to adjust for mobile */
+.pdf-viewer {
+  padding-left: 16%;
+}

@@ -8,6 +8,10 @@ The tower that controls the Power Module
 
 ---
 
+## GitHub
+
+Follow the **[COSMIIC GitHub page](https://github.com/COSMIIC-Inc)**. This is the home for all of our software and documentation to follow.
+
 ## Coming soon...
 
 Specifications, drawings, and test data are on their way
