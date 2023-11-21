@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Software
 
-The tower that controls the Power Module
+The brains of the operation
 
 ---
 
