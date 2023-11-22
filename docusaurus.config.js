@@ -47,7 +47,13 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-
+        gtag: {
+          trackingID: 'G-3R659EMH3F',
+          anonymizeIP: true,
+        },
+        googleTagManager: {
+          containerId: 'GTM-N9WVB6FP',
+        },
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
