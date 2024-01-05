@@ -33,10 +33,22 @@
 
 /** Styling for centering resource videos from Youtube with the react-player module. May need to adjust for mobile */
 .youtube-player {
-  padding-left: 16%;
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
 }
 
 /** Styling for centering resource PDFs from Google Drive embed with the iframe module. May need to adjust for mobile */
 .pdf-viewer {
-  padding-left: 16%;
+  text-align: center;
+}
+
+/** Styling for centering resource PDFs from Google Drive embed with the iframe module. May need to adjust for mobile */
+.pdf-viewer-table {
+  text-align: center;
+  vertical-align: center;
+}
+
+td {
+  text-align: center;
 }
