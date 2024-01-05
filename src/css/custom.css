@@ -40,7 +40,9 @@
 
 /** Styling for centering resource PDFs from Google Drive embed with the iframe module. May need to adjust for mobile */
 .pdf-viewer {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
 }
 
 /** Styling for centering resource PDFs from Google Drive embed with the iframe module. May need to adjust for mobile */

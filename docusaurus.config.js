@@ -73,7 +73,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Announcement: We will be at North American Neuromodulation (Jan 18-21, 2024)',
+          'Announcement: We will be at North American Neuromodulation Society - NANS 2024 (Jan 18-21, 2024)',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,
