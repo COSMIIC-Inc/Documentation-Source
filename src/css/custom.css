@@ -45,7 +45,7 @@
   vertical-align: center;
 }
 
-/** Styling for centering resource PDFs from Google Drive embed with the iframe module. May need to adjust for mobile */
+/** Styling for centering resource PDFs in table from Google Drive embed with the iframe module. May need to adjust for mobile */
 .pdf-viewer-table {
   text-align: center;
   vertical-align: center;

@@ -1,7 +1,4 @@
-# Dependencies
-# prefer that these are in, so that project can be fully downloaded and built may need to update them but not sure how
-#/node_modules
-
+# .gitignore (all files referenced are omitted from git workflow) 
 # Production
 /build
 
