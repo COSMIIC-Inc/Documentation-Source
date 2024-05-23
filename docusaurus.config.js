@@ -73,7 +73,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Announcement: We will be at SPARC (Apr 9-10, 2024) and MN Neuromodulation Symposium (Apr 11-12, 2024)',
+          'Announcement: We will be at the BRAIN Initiative Conference (Jun 16-18, 2024)',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,
