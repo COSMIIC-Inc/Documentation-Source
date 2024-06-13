@@ -54,3 +54,8 @@
 td {
   text-align: center;
 }
+
+/** Use "className": "hidden_category" in _category_.json to hide it from Sidebar */
+.hidden_category {
+  display: none !important;
+}

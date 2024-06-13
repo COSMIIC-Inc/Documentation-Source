@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Power Module
 
-The thing that powers and leads communication in our flagship system
+The power and communications hub of the COSMIIC System
 
 ---
 

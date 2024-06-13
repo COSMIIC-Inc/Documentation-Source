@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Electrodes
 
-The things that take in or put out the muscle activation
+The things we hook up to muscles
 
 ---
 

@@ -15,22 +15,22 @@ We are establishing and sustaining an open source, modular network of active imp
 
 The COSMIIC concept is based on an existing platform implantable system, the Networked Neuroprosthetic (NNP) System, which was invented and developed at Case Western Reserve University by the investigative team. The first incarnation of the NNP System has already been developed with success demonstrated by an early feasibility human study, providing a strong existence-proof of the basic concept. Our goal with establishing COSMIIC is to make this system available to the entire research community in an open source, collaborative environment.
 
-Catch up with our most recent poster: :file_folder: **[COSMIIC Overview November 2023.pdf](./img/COSMIIC-Poster-SfN.pdf)**
+Catch up with our most recent poster: :file_folder: **[COSMIIC Overview June 2024.pdf](./img/COSMIIC-Poster-SfN.pdf)**
 
 <div class= 'pdf-viewer'>
-    <iframe src="https://drive.google.com/file/d/1u5NPPFfDxHNcs084oVVRZxefSBbJzx-m/preview" width="640" height="480" allow="autoplay"></iframe>
+    <iframe src="https://drive.google.com/file/d/1XyR0pXUXYBuftmWNVKRJxWdKWcXImbN3/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>
 
 ### Navigating the Site
 
-> - Check out the summarized material about our system components under the **[Implantables](./category/implantables)** sidebar.
+> - Check out the summarized material about our system components under the **[Implantables](./category/Implantables)** sidebar.
 >
-> - Download our Investigational Device Exemption (IDE) through the **[Regulatory](./Regulatory)** sidebar.
+> - Download our Investigational Device Exemption (IDE) through the **[Resources -> Regulatory](./Resources/Regulatory)** page.
 >
-> - Head to our **[Resources & FAQ](./FAQ-Support)** section for additional info and timelines.
+> - Head to our **[Resources -> FAQ](./Resources/FAQs)** section for additional info and timelines.
 
 The rest of the sidebar categories will be populated soon!
 
-### Submitting Requests for Documents
+### Get in Contact with COSMIIC
 
-If the documentation you are looking for is not yet available on the site, please submit the  **[Request Documents](https://cosmiic.atlassian.net/servicedesk/customer/portal/1/group/1/create/19)** form.
+For questions, comments, involvement opportunities, etc., please submit the **[Contact](https://cosmiic.atlassian.net/servicedesk/customer/portal/1/group/1/create/19)** form.

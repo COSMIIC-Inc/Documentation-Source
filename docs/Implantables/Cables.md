@@ -4,7 +4,7 @@ sidebar_position: 5
 
 # Cables
 
-The things that carry signals
+The things that carry signals to and from modules
 
 ---
 
