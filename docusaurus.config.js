@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/Cosmiic_favicon-150x150.png',
 
   // Set the production url of your site here
-  url: 'https://docs.cosmiic.org',
+  url: 'https://cosmiic-inc.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
