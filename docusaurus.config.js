@@ -22,6 +22,7 @@ const config = {
   projectName: 'COSMIIC-Inc.github.io', // Usually your repo name.
   deploymentBranch: 'main', //  deployment branch on COSMIIC-Inc.github.io repo
 
+  /** Set to allow category/Implantables in Welcome.md */
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'throw',
 
