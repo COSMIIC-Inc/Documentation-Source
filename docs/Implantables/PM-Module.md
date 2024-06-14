@@ -12,7 +12,7 @@ The power and communications hub of the COSMIIC System
 
 ![NNP Device](./img/nnp.jpg)
 
-The Power Module is an implanted module that has two key functions. First, it houses the rechargeable Li-ion batteries that supply power to the entire NNP implanted system, along with the required recharging link and circuitry. Second, it contains the wireless MedRadio link for transcutaneous communication and system programming. The power moduleconnects to the network through the network cable, placing power onto it for distribution to all remote modules.
+The Power Module is an implanted module that has two key functions. First, it houses the rechargeable Li-ion batteries that supply power to the entire NNP implanted system, along with the required recharging link and circuitry. Second, it contains the wireless MedRadio link for transcutaneous communication and system programming. The power module connects to the network through the network cable, placing power onto it for distribution to all remote modules.
 
 The power module is designed for easy surgical replacement, and replacement is an anticipated and expected event based on the eventual depletion of the Li-ion batteries. Power module replacement is accomplished through a single small incision, disconnection of the network segment connection, and replacement with a new power module. This procedure is expected to be an outpatient procedure requiring less than 30 minutes.The power module is designed to be implanted in the torso, typically either chest or abdomen, because these portions of the body can accommodate the power module package size. This location also allows convenient access for recharging through an inductive link, and easy surgical exposure for replacement.
 

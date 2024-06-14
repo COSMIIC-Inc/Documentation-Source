@@ -51,7 +51,7 @@ Patient-contacting materials
 - Monofilament polypropylene anchoring barb
 - Silicone adhesive over-molding
 
-### Epimysial Simulating Electrodes
+### Epimysial Stimulating Electrodes
 
 The epimysial electrodes used in this study are identical to those used in our other IDE’s, 
 G890084, G900108, G950116, and G040214. Electrical stimulation is delivered through 
