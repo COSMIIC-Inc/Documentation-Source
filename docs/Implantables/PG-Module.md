@@ -6,6 +6,13 @@ sidebar_position: 2
 
 The thing that stimulates muscles
 
+Quick links:
+
+:link: **[Implantables-PulseGenerator-Hardware on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PulseGenerator-Hardware)**
+
+:link: **[Implantables-PulseGenerator-Application on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PulseGenerator-Application)**
+
+
 ---
 
 ## Product Description
@@ -27,3 +34,4 @@ The PG has internal processing based on the AVR-core processor (Atmel AT90CAN128
 ## Coming soon...
 
 Specifications, drawings, and test data are on their way.
+Information on the fabrication process, manufacturing partners, and how to obtain Network Cables will be uploaded soon.

@@ -6,9 +6,17 @@ sidebar_position: 1
 
 The power and communications hub of the COSMIIC System
 
+Quick links:
+
+:link: **[Implantables-PowerModule-Hardware on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PowerModule-Hardware)**
+
+:link: **[Implantables-PowerModule-Bootloader on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PowerModule-Bootloader)**
+
+:link: **[Implantables-PowerModule-Application on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PowerModule-Application)**
+
 ---
 
-## Product Description
+## Component Overview
 
 ![NNP Device](./img/nnp.jpg)
 
@@ -20,6 +28,9 @@ The power module contains a magnetically activated switch for emergency shut-dow
 
 The power module has a titanium case with feedthroughs for the network connections and antenna wire. An epoxy header holds the connections and antenna. A polymer nest inside the case holds the batteries and circuitry in place. The coil for inductive battery recharging surrounds the circuitry inside the case. Three identical Li-ion rechargeable cells are connected in parallel to provide the NNP system power.
 
+## Component Overview
+
 ## Coming soon...
 
-Specifications, drawings, and test data are on their way
+Specifications, drawings, and test data are on their way on August 31st, 2024.
+Information on the fabrication process, manufacturing partners, and how to obtain Network Cables will be uploaded soon.

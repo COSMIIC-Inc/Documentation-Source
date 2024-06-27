@@ -6,6 +6,12 @@ sidebar_position: 3
 
 The thing that takes in signals
 
+Quick Links: 
+
+:link: **[Implantables-BiopotentialRecording-Hardware on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-BiopotentialRecording-Hardware)**
+
+:link: **[Implantables-BiopotentialRecording-Application on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-BiopotentialRecording-Application)**
+
 ---
 
 ## Product Description
@@ -24,4 +30,5 @@ The BP is connected to the NNP network through a single network cable.  The BP g
 
 ## Coming soon...
 
-Specifications, drawings, and test data are on their way
+Specifications, drawings, and test data are on their way on August 31st, 2024.
+Information on the fabrication process, manufacturing partners, and how to obtain Network Cables will be uploaded soon.
