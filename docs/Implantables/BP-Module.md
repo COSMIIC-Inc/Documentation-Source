@@ -4,8 +4,6 @@ sidebar_position: 3
 
 # Biopotential Recording Module
 
-The thing that takes in signals
-
 Quick Links: 
 
 :link: **[Implantables-BiopotentialRecording-Hardware on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-BiopotentialRecording-Hardware)**

@@ -4,8 +4,6 @@ sidebar_position: 5
 
 # Network Cable
 
-The thing that carries power and signals to and from modules
-
 Quick Links: 
 
 :link: **[Implantables-NetworkCable on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-NetworkCable)**

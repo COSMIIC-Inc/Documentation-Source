@@ -4,8 +4,6 @@ sidebar_position: 1
 
 # Power Module
 
-The power and communications hub of the COSMIIC System
-
 Quick links:
 
 :link: **[Implantables-PowerModule-Hardware on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PowerModule-Hardware)**

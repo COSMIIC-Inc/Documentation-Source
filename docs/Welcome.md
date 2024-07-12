@@ -5,8 +5,6 @@ slug: /
 
 # Welcome to COSMIIC!!
 
-Open source implantable devices.
-
 ---
 
 ### What We Do
