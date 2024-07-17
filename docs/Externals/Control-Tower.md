@@ -4,8 +4,6 @@ sidebar_position: 2
 
 # Control Tower
 
-The thing that controls the Power Module
-
 ---
 
 ## Coming soon...

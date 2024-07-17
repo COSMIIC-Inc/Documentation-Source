@@ -4,8 +4,6 @@ sidebar_position: 4
 
 # Electrodes
 
-The things we hook up to muscles
-
 Quick Links: 
 
 :link: **[Implantables-Electrodes on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-Electrodes)**

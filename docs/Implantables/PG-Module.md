@@ -4,8 +4,6 @@ sidebar_position: 2
 
 # Pulse Generator Module
 
-The thing that stimulates muscles
-
 Quick links:
 
 :link: **[Implantables-PulseGenerator-Hardware on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PulseGenerator-Hardware)**

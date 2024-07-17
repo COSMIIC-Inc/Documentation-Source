@@ -4,8 +4,6 @@ sidebar_position: 6
 
 # Software
 
-The brains of the operation
-
 ---
 
 ## GitHub
