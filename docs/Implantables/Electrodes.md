@@ -10,7 +10,11 @@ Quick Links:
 
 ---
 
-## Product Description
+## Component Overview
+
+Summarized Text
+
+## Technical Description of Electrode Types
 
 The electrode cable is fabricated using wires of 316LVM stainless steel (0.034 mm diameter 
 each), organized into a single seven-filament strand and coated with a perfluoroalkoxy 
@@ -27,6 +31,10 @@ Patient-contacting materials
 - Silicone adhesive and low-consistency silicone elastomer for adhesive
 
 ### Intramuscular Stimulating Electrodes
+
+![image](./img/graphic-red-connector.png) 
+
+![image](./img/graphic-im-electrode.png)
 
 The intramuscular recording electrodes used in this study are identical to those used in our 
 other IDE’s, G890084, G900108, G950116, and G040214. Electrical stimulation is delivered 
@@ -54,6 +62,10 @@ Patient-contacting materials
 - Silicone adhesive over-molding
 
 ### Epimysial Stimulating Electrodes
+
+![image](./img/graphic-green-connector.png) 
+
+![image](./img/graphic-epimysial-electrode.png)
 
 The epimysial electrodes used in this study are identical to those used in our other IDE’s, 
 G890084, G900108, G950116, and G040214. Electrical stimulation is delivered through 
@@ -89,51 +101,18 @@ Patient-contacting materials
 - Polyester-reinforced silicone sheeting electrode backing and suture skirt
 - Low-consistency silicone elastomer over-molding
 
-### Port Plugs
+## Documentation 
 
-The Power Module and Remote Module headers have allowance for up to four and eight 
-network connections, respectively. These header connections are closed with a port plug 
-that is placed in the connection during manufacture. Port plugs are removed at the time of 
-surgery to accommodate connection to the Power Module or Remote Module headers.
-Patient-contacting materials
-- Silicone elastomer insulation tubing
-- Liquid silicone rubber strain relief with dual O-ring
-- Pigment used in dual O-ring and plug body
+### Mechanical Design Files and Drawings
+All files and drawings for the design of the Electrodes are available on the COSMIIC GitHub here:
 
-### NNP-to-Pin Adapter
+:link: **[Implantables-Electrodes/"Mechanical Design CAD Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-Electrodes/tree/main/Mechanical%20Design%20CAD%20Files)**
 
-The NNP-to-Pin Adapter will be utilized in situations where we need to connect our 
-previous electrodes to the NNP stimulating module. This adapter provides two important 
-advantages:
+### Design Controls and Verification of Electrode Designs
+Specifications and testing for the Electrodes are documented on the COSMIIC GitHub here:
 
-1. Subjects with previous systems can upgrade their implant without the need to 
-replace all of their electrodes. The electrodes are the critical component of the 
-stimulating and recording system, and replacement would require significant 
-surgery and removal of otherwise fully functioning components.
-2. Existing stock of electrodes could be utilized with the adapter for use with the NNP 
-system.
-
-The NNP System utilizes a two-conductor male pin that can be connected to any NNP 
-module. The NNP-to-Pin Adapter is a cable consisting of the older pin-style connection on 
-one end and the NNP two-conductor connector on the opposite end. The lead is the 
-identical coiled 316LVM stainless steel wire utilized for the stimulating electrodes in the 
-past and current (NNP) systems. The pin connects to a pin from the implanted device via 
-an interconnecting spring, identical to those described in IDE #G950116. A silicone sleeve 
-is placed around the pins and interconnecting spring to provide electrical insulation. 
- 
-There are two versions of NNP-to-Pin Adapter. One is used to connect muscle-based 
-stimulating electrodes (epimysial and intramuscular) to the NNP System. Both conductors 
-in the two-conductor lead are connected to the single-pin connector. The other is used to
-connect muscle-based recording electrodes (epimysial and intramuscular) to the NNP 
-System. The recording electrodes have two separate contacts, each connected to one 
-conductor of the two-conductor lead. Each conductor will be connected to one contact on
-the two-contact NNP connector.
-Patient-contacting materials
-- 316LVM stainless steel electrical contacts
-- Silicone elastomer insulation
-
+:link: **[Implantables-Verification/Electrodes on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-Verification/tree/main/Electrodes)**
 
 ## Coming soon...
 
-Specifications, drawings, and test data are on their way on August 31st, 2024.
-Information on the fabrication process, manufacturing partners, and how to obtain Network Cables will be uploaded soon.
+Information on the fabrication process, manufacturing partners, and how to obtain Electrodes will be uploaded soon.

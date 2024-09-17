@@ -100,6 +100,11 @@ const config = {
             label: 'Docs',
           },
           {
+            href: 'https://cosmiic.atlassian.net/servicedesk/customer/portal/1/group/1/create/19',
+            label: 'Contact',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/COSMIIC-Inc',
             label: 'GitHub',
             position: 'right',
