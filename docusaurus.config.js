@@ -74,7 +74,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Announcement: We will be at the BRAIN Initiative Conference (Jun 16-18, 2024) and NYC Neuromodulation Conference (Aug 1-3, 2024)!',
+          'Announcement: We will be at SfN on Oct 7-9, 2024!',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,
@@ -100,11 +100,6 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://cosmiic.atlassian.net/servicedesk/customer/portal/1/group/1/create/19',
-            label: 'Contact',
-            position: 'right',
-          },
-          {
             href: 'https://github.com/COSMIIC-Inc',
             label: 'GitHub',
             position: 'right',
@@ -114,7 +109,11 @@ const config = {
             label: 'Main Site',
             position: 'right',
           },
-          
+          {
+            href: 'https://cosmiic.atlassian.net/servicedesk/customer/portal/1/group/1/create/19',
+            label: 'Contact',
+            position: 'right',
+          },
         ],
       },
       footer: 
