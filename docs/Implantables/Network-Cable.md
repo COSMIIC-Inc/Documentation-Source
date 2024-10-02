@@ -11,6 +11,8 @@ Quick Links:
 ---
 
 ## Component Overview
+ 
+![image](./img/graphic-blue-connector.png)
 
 The Network Cable is the conduit for conducting power and communications between implanted modules in the COSMIIC System. Power on the Network Cable is provided by connection to the Power Module's rechargeable battery. Network communication can be generated on the  Network Cable by any module. The Network Cable is a critical component of the COSMIIC System because all remote modules depend on its proper functioning for power and communication. Every remote module must be connected to the COSMIIC System network through a Network Cable.
 
@@ -21,15 +23,17 @@ The Network Cable is a four-filar (7-strands DFT each), two-conductor cable. It 
 
 The total length of the cable varies depending on the location in the body, but is typically 10-30cm. Strain relief is provided at each end of the cable for durability and to provide stiffness for insertion into each module.
 
-### Design Files and Drawings
+## Documentation 
+
+### Mechanical Design Files and Drawings
 All files and drawings for the design of the Network Cable are available on the COSMIIC GitHub here:
 
 :link: **[Implantables-NetworkCable/"Mechanical Design CAD Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-NetworkCable/tree/main/Mechanical%20Design%20CAD%20Files)**
 
-### Design Controls and Verificaion
+### Design Controls and Verification
 Specifications and testing for the Network Cable are documented on the COSMIIC GitHub here:
 
-:link: **[Implantables-NetworkCable/"Mechanical Design Verification" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-NetworkCable/tree/main/Mechanical%20Design%20Verification)**
+:link: **[Implantables-Verification/Network-Cable on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-Verification/tree/main/Network-Cable)**
 
 ## Coming soon...
 Information on the fabrication process, manufacturing partners, and how to obtain Network Cables will be uploaded soon.
