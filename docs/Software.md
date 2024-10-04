@@ -1,18 +1,14 @@
 ---
-sidebar_position: 6
+sidebar_position: 5
 ---
 
 # Software
 
 ---
 
-## GitHub
-
-Follow the **[COSMIIC GitHub page](https://github.com/COSMIIC-Inc)**. This is the home for all of our software and documentation to follow.
-
 ## Coming soon...
 
-Specifications, drawings, and test data are on their way
+Specifications, network architecture, and API are on their way
 
 ```jsx title="/docs/cosmiic.js"
 function HelloFromCosmiic() {
@@ -23,3 +19,5 @@ function HelloFromCosmiic() {
     )
 }
 ```
+
+Follow the **[COSMIIC GitHub page](https://github.com/COSMIIC-Inc)**. This is the home for all of our software and documentation to follow.

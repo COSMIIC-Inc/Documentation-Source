@@ -16,6 +16,8 @@ Quick Links:
 
 Electrical stimulation is delivered through metal electrodes placed near or in direct contact with neural tissue. Each electrode consists of the contact itself, a conducting lead, and a dual-contact connector to mate to the PG4 module. The intramuscular stimulating electrode is designed to be inserted into the belly of the target muscle. The epimysial stimulating electrode is designed to be sewn onto the surface of the target muscle. Despite the location of the electrode inside or on the muscle, electrical pulses delivered through the electrode cause activation of the nerves branching into the muscle, rather than direct activation of the muscle tissue itself.
 
+---
+
 ## Technical Description of Electrode Types
 
 The electrode cable is fabricated using wires of 316LVM stainless steel (0.034 mm diameter 
@@ -42,6 +44,8 @@ The intramuscular stimulating surface is 2mm long with an approximate surface ar
 ![image](./img/graphic-epimysial-electrode.png)
 
 The epimysial stimulating electrode is a platinum-iridium disk with a brim supported by polyester mesh reinforced silicone rubber. The exposed metal contact is a disc 3.3 mm in diameter with a surface area of 8.55 mm2. The brim is sandwiched between two layers of silicone elastomer, leaving the conducting surface exposed through a hole in the top layer. The electrode is sewn onto the muscle epimysium using sutures through the polyester mesh backing. Five sutures are placed around the perimeter of the electrode backing, each tied with four knots, using 4-0 polyester suture.
+
+---
 
 ## Documentation 
 

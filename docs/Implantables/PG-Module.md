@@ -18,9 +18,13 @@ The four-channel pulse generator module (PG) is a remote module utilized for ele
 
 ![pulse](./img/pg.png)
 
+---
+
 ## Technical Description
 
 The PG has internal processing based on the AVR-core processor (Atmel AT90CAN128). Computational processing is used to identify relevant network data (typically control signal levels from the sensor module) and convert that data into the appropriate stimulus levels to each electrode based on pre-programmed patterns. These patterns are customized to provide the desired coordinated functional responses from each muscle and nerve. The PG combines three levels of failsafe mechanisms to assure that potentially damaging stimulation is not delivered: 1) hardware limits on total charge per pulse, 2) software limits on stimulation parameters, and 3) failsafe magnetic switches in both the PG and the power module.
+
+---
 
 ## Documentation
 

@@ -18,10 +18,13 @@ Myoelectric signals (MES) from muscles under voluntary control are recorded by t
 
 ![image](./img/bp.png)
 
+---
 
 ## Technical Description
 
 The BP is connected to the NNP network through a single network cable. The BP gains power from the network, receives data from the network that to determine signal processing parameters and other administrative functions, and places two channels of processed myoelectric data on the network for use by any other module connected to the network. The BP has four total network connections, allowing a single BP to branch from a single network input to network output to three additional remote modules. The BP has internal processing based on the AVR-core processor (Atmel AT90CAN128). The processing, network interface and powering is identical to the PG module. Computational processing in the BP is used to identify relevant network data and perform the signal processing on the recorded myoelectric signal.
+
+---
 
 ## Documentation
 

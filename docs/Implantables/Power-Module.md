@@ -18,15 +18,21 @@ The Power Module is an implanted module that has two key functions. First, it ho
 
 ![NNP Device](./img/nnp.jpg)
 
-# Technical Overview
+---
+
+## Technical Overview
 
 The power module is designed to be implanted in the torso, typically either chest or abdomen, because these portions of the body can accommodate the power module package size. This location also allows convenient access for recharging through an inductive link, and easy surgical exposure for replacement. The power module contains a magnetically activated switch for emergency shut-down of the entire NNP system. This switch implements a failsafe shutdown function that will deenergize all of the power module circuitry in the presence of a strong, static magnetic field. The power module utilizes a 32 bit ARM-7 microprocessor, the NXP Semiconductor LPC2129 processor. The processor runs a real time operating system (RTOS). The power module has a titanium case with feedthroughs for the network connections and antenna wire. An epoxy header holds the connections and antenna. A polymer nest inside the case holds the batteries and circuitry in place. The coil for inductive battery recharging surrounds the circuitry inside the case. Three identical Li-ion rechargeable cells are connected in parallel to provide the NNP system power.
+
+---
 
 ## Subcomponents
 
 ### Port Plugs
 
 The Power Module and Remote Module headers have allowance for up to four and eight network or electrode cable connections, respectively. These header connections are closed with a port plug that is placed in the connection during manufacture. Port plugs are removed at the time of surgery to accommodate connection to the Power Module or Remote Module headers.
+
+---
 
 ## Documentation
 
