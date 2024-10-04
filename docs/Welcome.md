@@ -23,9 +23,9 @@ Catch up with our most recent poster: :file_folder: **[COSMIIC Overview October 
 
 > - Check out the summarized material about COSMIIC system components under the **[Implantables](/category/Implantables)** sidebar.
 >
-> - Download our Investigational Device Exemption (IDE) through the **[Resources -> Regulatory](./Resources/Regulatory.mdx)** page.
+> - Download our Investigational Device Exemption (IDE) through the **[Resources -> Regulatory](/Resources/Regulatory.mdx)** page.
 >
-> - Head to our **[Resources -> FAQ](/Resources/FAQs.mdx)** section for additional info and timelines.
+> - Head to our **[Resources -> FAQ](/FAQs.mdx)** section for additional info and timelines.
 
 The rest of the sidebar categories will be populated soon!
 
