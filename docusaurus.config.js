@@ -74,7 +74,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Announcement: We will be at SfN on Oct 7-9, 2024!',
+          'Announcement: We will be at NANS on Jan. 30 - Feb. 1, 2025!',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,
