@@ -1,12 +1,10 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 ---
 
 # Network Cable
 
 Power and physical network transmission cable
-
-Quick Links: 
 
 :link: **[Implantables-NetworkCable on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-NetworkCable)**
 

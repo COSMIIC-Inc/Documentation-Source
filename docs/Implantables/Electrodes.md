@@ -1,12 +1,10 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Electrodes
 
 Recording and stimulation electrodes
-
-Quick Links: 
 
 :link: **[Implantables-Electrodes on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-Electrodes)**
 

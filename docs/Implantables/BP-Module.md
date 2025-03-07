@@ -2,11 +2,9 @@
 sidebar_position: 3
 ---
 
-# Biopotential Recording Module
+# BP2 - Biopotential Recording Module
 
 2-channel EMG module
-
-Quick Links: 
 
 :link: **[Implantables-BiopotentialRecording-Hardware on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-BiopotentialRecording-Hardware)**
 

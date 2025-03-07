@@ -9,9 +9,9 @@ slug: /
 
 ### What We Do
 
-We are establishing and sustaining an open source, modular network of active implantable devices for use in fundamental neuroscience, animal, and early feasibility human research.  Our open source concept includes all aspects of the implantable system that are necessary for pre-clinical and human use:  hardware, software, mechanical components, test documents, regulatory documents, and instruction manuals.
+We are establishing and sustaining an open source ecosystem of users and resources surrounding a unique modular active implantable device for use in fundamental neuroscience, animal, and early feasibility human research.  
 
-The COSMIIC concept is based on an existing platform implantable system, the Networked Neuroprosthetic (NNP) System, which was invented and developed at Case Western Reserve University by the investigative team. The first incarnation of the NNP System has already been developed with success demonstrated by an early feasibility human study, providing a strong existence-proof of the basic concept. Our goal with establishing COSMIIC is to make this system available to the entire research community in an open source, collaborative environment.
+The COSMIIC System is based on the Networked Neuroprosthetic (NNP) System, which was invented at Case Western Reserve University. Under the NNP namesake, the system has demonstrated success in an early feasibility human study for restoring hand grasp function in individuals with spinal cord injury. The goal of the COSMIIC effort is to make this system available to the entire neuromodulation research community in an open and collaborative environment. Our open source concept includes all aspects of the implantable system that are necessary for pre-clinical and human use--hardware, software, mechanical components, test documents, and regulatory documents--with the hope that access leads to more human therapies.
 
 Catch up with our most recent poster: :file_folder: **[COSMIIC Overview October 2024.pdf](./img/cosmiic-poster-2025.pdf)**
 
@@ -21,11 +21,11 @@ Catch up with our most recent poster: :file_folder: **[COSMIIC Overview October 
 
 ### Navigating the Site
 
-> - Check out the summarized material about COSMIIC system components under the **[Implantables](/category/Implantables)** sidebar.
+> - Check out the summarized material about COSMIIC system components under the **[Implantables](/category/implantables)** sidebar.
 >
-> - Download our Investigational Device Exemption (IDE) through the **[Resources -> Regulatory](/Resources/Regulatory.mdx)** page.
+> - Download an Example of an existing Investigational Device Exemption (IDE) using the system through the **[Resources -> Regulatory](/category/regulatory)** tabs.
 >
-> - Head to our **[Resources -> FAQ](/FAQs.mdx)** section for additional info and timelines.
+> - Join our Newsletter **[with this sign-up link](https://cosmiic.org/join-now/)**
 
 The rest of the sidebar categories will be populated soon!
 

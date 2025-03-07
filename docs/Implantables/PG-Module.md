@@ -2,11 +2,9 @@
 sidebar_position: 2
 ---
 
-# Pulse Generator Module
+# PG4 - Pulse Generator Module
 
 4-channel IPG module
-
-Quick links:
 
 :link: **[Implantables-PulseGenerator-Hardware on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PulseGenerator-Hardware)**
 

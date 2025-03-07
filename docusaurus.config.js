@@ -74,7 +74,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Announcement: We will be at NANS on Jan. 30 - Feb. 1, 2025!',
+          'Announcement: We will be presenting at the Open Hardware Summit on May 30-31, 2025! See FAQs for more conference dates',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,
@@ -112,6 +112,11 @@ const config = {
           {
             href: 'https://cosmiic.atlassian.net/servicedesk/customer/portal/1/group/1/create/19',
             label: 'Contact',
+            position: 'right',
+          },
+          {
+            href: 'https://cosmiic.org/join-now/',
+            label: 'Join Newsletter',
             position: 'right',
           },
         ],

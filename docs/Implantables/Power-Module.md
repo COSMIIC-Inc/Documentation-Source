@@ -2,11 +2,9 @@
 sidebar_position: 1
 ---
 
-# Power Module
+# PM2 - Power Module
 
-Power, processing, and network control module
-
-Quick links:
+Power and processing module with 2 network ports
 
 :link: **[Implantables-PowerModule-Hardware on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PowerModule-Hardware)**
 
