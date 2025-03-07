@@ -21,9 +21,11 @@ Catch up with our most recent poster: :file_folder: **[COSMIIC Overview October 
 
 ### Navigating the Site
 
-> - Check out the summarized material about COSMIIC system components under the **[Implantables](/category/implantables)** sidebar.
+> - Check out the summarized material about COSMIIC System components under the **[Implantables](/category/implantables)** sidebar.
 >
-> - Download an Example of an existing Investigational Device Exemption (IDE) using the system through the **[Resources -> Regulatory](/category/regulatory)** tabs.
+> - Download examples of an existing Investigational Device Exemption (IDE) and Biocompatibility Evaluation Plan (BEP) for the system through the **[Resources -> Regulatory](/category/regulatory)** tabs.
+>
+> - Refer to the **[Licensing](/Community/Licensing)** page to learn about our permissive licensing
 >
 > - Join our Newsletter **[with this sign-up link](https://cosmiic.org/join-now/)**
 
