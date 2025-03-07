@@ -20,7 +20,7 @@ We have prepared a example version of a Biocompatibility Evaluation Plan for the
 
 Note: This document includes materials, construction, cleaning information of the base COSMIIC System components (PM2, PG4, BP2, electrodes, and network cables). Regulatory requirements and information in this document may have been obsoleted since original release of these documents. The recommendations for testing in this document were to a specific use case of the COSMIIC System and should not be taken as advice from COSMIIC nor the creator of the report. For up-to-date technical information on the COSMIIC System, please visit the Docs site through cosmiic.org.
 
-## Biological Testing
+## Biocompatibility Testing
 
 Coming soon...
 
