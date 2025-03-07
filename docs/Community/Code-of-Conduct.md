@@ -8,18 +8,11 @@ Be a postive contributing member
 
 ---
 
-COSMIIC is dedicated to providing a harassment-free online and in-person community experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, age, body size, race, or religion. We do not tolerate harassment in any form on any OSHWA platform, including mailing lists, forums, comments, venues and anywhere else you interact with COSMIIC hosted space, online or in-person, private or public.
+COSMIIC is dedicated to growing a successful open source ecosystem consisting of a diverse base of contributors and users. In pursuit of this goal, it is of utmost importance that we provide a respectful community experience, online and in-person, for everyone, regardless of gender identity and expression, sexual orientation, disability, age, race, or religion. Open source and the medical research community are centered around inclusion. We do not tolerate harassment in any form on any COSMIIC platform, including mailing lists, forums, comments, venues and anywhere else you interact with COSMIIC-hosted space.
 
 ## Expected Behavior
 
-- Be welcoming. Use inclusive language.
+- Communicate directly and professionally
 - Be respectful of differing viewpoints and experiences. 
-- Be receptive to constructive comments and criticism.
-- Show empathy towards other community members.
-- Be respectful of others' positions, skills, commitments, and efforts.
-
-## Attribution
-
-Let others know you are COSMIIC materials in your research. 
-
-Examples being 
+- Be respectful of others' skills, commitments, and efforts.
+- Maintain attribution and citation of others' work
