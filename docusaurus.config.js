@@ -92,13 +92,6 @@ const config = {
         },
         items: 
         [
-          //links "Documentation" in nav bar to side bar
-          {
-            type: 'docSidebar',
-            position: 'right',
-            sidebarId: 'docsSidebar',
-            label: 'Docs',
-          },
           {
             href: 'https://github.com/COSMIIC-Inc',
             label: 'GitHub',
