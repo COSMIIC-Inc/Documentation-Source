@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# PM2 - Power Module
+# PM - Power Module
 
 Power and processing module with 2 network ports
 
-:link: **[Implantables-PowerModule-Hardware on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PowerModule-Hardware)**
+:link: **[Implantables-PM-Hardware on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PM-Hardware)**
 
 ---
 
@@ -37,7 +37,7 @@ The Power Module and Remote Module headers have allowance for up to four and eig
 ### Mechanical Design Files and Drawings
 All files and drawings for the design of the Power Module are available on the COSMIIC GitHub here:
 
-:link: **[Implantables-PowerModule-Hardware/"Mechanical Design CAD Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PowerModule-Hardware/tree/main/Mechanical%20Design%20CAD%20Files)**
+:link: **[Implantables-PM-Hardware/"Mechanical Design CAD Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PM-Hardware/tree/main/Mechanical%20Design%20CAD%20Files)**
 
 ## Coming soon...
 

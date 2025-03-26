@@ -6,7 +6,7 @@ sidebar_position: 2
 
 4-channel IPG module
 
-:link: **[Implantables-PulseGenerator-Hardware on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PulseGenerator-Hardware)**
+:link: **[Implantables-PG4-Hardware on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PG4-Hardware)**
 
 ---
 
@@ -29,7 +29,7 @@ The PG has internal processing based on the AVR-core processor (Atmel AT90CAN128
 ### Mechanical Design Files and Drawings
 All files and drawings for the design of the Biopotential Recording Module are available on the COSMIIC GitHub here:
 
-:link: **[Implantables-PulseGenerator-Hardware/"Mechanical Design CAD Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PulseGenerator-Hardware/tree/main/Mechanical%20Design%20CAD%20Files)**
+:link: **[Implantables-PG4-Hardware/"Mechanical Design CAD Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PG4-Hardware/tree/main/Mechanical%20Design%20CAD%20Files)**
 
 ## Coming soon...
 

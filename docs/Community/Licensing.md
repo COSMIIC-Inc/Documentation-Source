@@ -40,7 +40,7 @@ All files of this category are hosted across COSMIIC GitHub repositories. This i
 - Software
     - API in Matlab
     - Assorted Matlab apps
-    - Tools and processes, such as custom linters andGitHub Action workflows
+    - Tools and processes, such as custom linters and GitHub Action workflow files
 
 ### Documentation Licensing - CC-BY-4.0
 

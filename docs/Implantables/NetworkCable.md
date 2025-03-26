@@ -37,7 +37,7 @@ All files and drawings for the design of the Network Cable are available on the 
 ### Design Controls and Verification
 Specifications and testing for the Network Cable are documented on the COSMIIC GitHub here:
 
-:link: **[Implantables-Verification/Network-Cable on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-Verification/tree/main/Network-Cable)**
+:link: **[Implantables-Verification/Network-Cable on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-Verification/tree/main/NetworkCable)**
 
 ## Coming soon...
 Information on the fabrication process, manufacturing partners, and how to obtain Network Cables will be uploaded soon.

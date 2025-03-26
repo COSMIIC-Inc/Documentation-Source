@@ -6,7 +6,7 @@ sidebar_position: 3
 
 2-channel EMG module
 
-:link: **[Implantables-BiopotentialRecording-Hardware on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-BiopotentialRecording-Hardware)**
+:link: **[Implantables-BP2-Hardware on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-BP2-Hardware)**
 
 ---
 
@@ -29,7 +29,7 @@ The BP is connected to the NNP network through a single network cable. The BP ga
 ### Mechanical Design Files and Drawings
 All files and drawings for the design of the Biopotential Recording Module are available on the COSMIIC GitHub here:
 
-:link: **[Implantables-BiopotentialRecording-Hardware/"Mechanical Design CAD Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-BiopotentialRecording-Hardware/tree/main/Mechanical%20Design%20CAD%20Files)**
+:link: **[Implantables-BP2-Hardware/"Mechanical Design CAD Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-BP2-Hardware/tree/main/Mechanical%20Design%20CAD%20Files)**
 
 ## Coming soon...
 
