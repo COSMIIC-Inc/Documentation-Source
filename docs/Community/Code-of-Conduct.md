@@ -16,32 +16,32 @@ The open source and medical research communities are centered around inclusion. 
 
 ## Community Guidelines
 
-To ensure a safe and productive environment, we ask all community members to adhere to the following guidelines:
+To ensure a safe and productive environment, we ask all community members to adhere to the guidelines below. By participating in this community, you agree to abide by this Code of Conduct. Thank you for helping us maintain a welcoming and productive space!
 
-### 1. Be Respectful
+### 1. General Forum Courtesy
+
+Participate! However, participate responsibly by following these tips:
+- Search the forum for similar topics before posting.
+- Stay on-topic. Keep discussions relevant to the forum or documentation. Off-topic conversations should be directed to appropriate channels.
+- Use the forum's built-in tools (bookmarks, likes, flags, replies, edits, watching) to improve your experience.
+- Avoid posting spam and opt to use 'likes' rather than short replies that do not add content.
+
+### 2. General Open Source Etiquette
+
+- When contributing to documentation or the forum, be constructive and provide meaningful contributions. Respect maintainers' decisions and follow project guidelines.
+- You may not post anything that belongs to someone else without permission.
+- Maintain attribution and citation of others' work.
+
+### 3. Be Civil
 
 - Treat all community members with kindness and respect. Personal attacks, harassment, discrimination, or hate speech of any kind will not be tolerated.
-- Communicate directly and professionally
-
-### 2. Respect Privacy
-
-- Do not share private or personal information of yourself or others without consent.
-
-### 3. Follow Open Source Etiquette
-
-- When contributing to documentation, be constructive and provide meaningful contributions. Respect maintainers' decisions and follow project guidelines.
-- Maintain attribution and citation of others' work
-
-### 4. Stay On-Topic
-
-- Keep discussions relevant to the forum or documentation. Off-topic conversations should be directed to appropriate channels.
-    
-### 5. No Inappropriate Content
-
+- If you disagree with someone's post, you may disagree. That’s fine. But remember to criticize ideas, not people. If responding, provide thoughtful insights that seek to improve the conversation.
+- Communicate directly and professionally.
+- Respect privacy. Do not share private or personal information of yourself or others without consent.
 - Do not post content that is obscene, illegal, or otherwise inappropriate for a public forum.
 
-### 6. Report Issues Responsibly
+### 4. Report Issues Responsibly
 
-- If you encounter a problem, report it constructively to **[admin@cosmiic.org](mailto:admin@cosmiic.org)**. Do not engage in public shaming or hostility.
-
-By participating in this community, you agree to abide by this Code of Conduct. Thank you for helping us maintain a welcoming and productive space!
+- When you see bad behavior, don’t reply, don't waste your time. Just flag it on the forum or report it. As flags accrue, a review will take place, either automatically or by moderator intervention. Do not engage in public shaming or hostility. Let moderators review and take action.
+- In order to maintain our community, moderators reserve the right to remove any content and any user account for any reason at any time. Moderators do not preview new posts; the moderators and site operators take no responsibility for any content posted by the community.
+- If you encounter a recurring problem, report it constructively to **[admin@cosmiic.org](mailto:admin@cosmiic.org)**. 
