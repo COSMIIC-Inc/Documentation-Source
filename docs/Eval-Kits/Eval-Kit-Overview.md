@@ -10,7 +10,7 @@ The basics of what an evaluation kit is and how you can use it
 
 ## Overview
 
-A COSMIIC System evaluation kit is essential for you to test new features in software orfirmware, scope unique module orientations, or possibly create new modules. The evaluation kit is a custom-oriented system sitting on your benchtop that mirrors the function of an implantable COSMIIC System. Kits are essential for you to advance a project from (1) idea &rarr; (2) benchtop testing &rarr; (3) animal testing &rarr; (4) clinical feasibility. The open source COSMIIC System and evaluation kit give you the power and flexibility you need to develop your neuromodulation concepts.
+A COSMIIC System evaluation kit is essential for you to test new features in software and firmware, scope unique module orientations, or possibly create new modules. The evaluation kit is a custom-oriented system sitting on your benchtop that mirrors the function of an implantable COSMIIC System. Kits are essential for you to advance a project from (1) idea &rarr; (2) benchtop testing &rarr; (3) animal testing &rarr; (4) clinical feasibility. The open source COSMIIC System and evaluation kit give you the power and flexibility you need to develop your neuromodulation concepts.
 
 ## Structure
 
