@@ -19,6 +19,8 @@ Catch up with our most recent poster: :file_folder: **[COSMIIC Overview October 
     <iframe src="https://drive.google.com/file/d/1nQ-z8FbcCkxfspzFAfhLu0xDfbsSPTpz/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>
 
+---
+
 ### Navigating the Site
 
 > - Check out the summarized material about COSMIIC System components under the **[Implantables](/category/implantables)** sidebar.
@@ -30,6 +32,8 @@ Catch up with our most recent poster: :file_folder: **[COSMIIC Overview October 
 > - Join our Newsletter **[with this sign-up link](https://cosmiic.org/join-now/)**
 
 The rest of the sidebar categories will be populated soon!
+
+---
 
 ### Get in Contact with COSMIIC
 

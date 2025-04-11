@@ -8,13 +8,13 @@ How PG4 Eval Boards are assembled
 
 ---
 
-## PG4 Frame Board Source Files
+## Frame Board Source Files
 
-Link to GitHub
+Source files for the PG4 frame board design and assembly are found here on the COSMIIC GitHub :link: **[Evaluation-Kits-Hardware/"PG4-Eval-Board" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Evaluation-Kits-Hardware/tree/main/PG4-Eval-Board)**
 
 ---
 
-## PG4 Eval Board Bill of Materials (BOM)
+## Eval Board Bill of Materials (BOM)
 | BOM # | QTY per Board | Connector(s) Name | Type | Description | Part # | Manufacturer | Link to Order |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 4 | 5 | JP501,JP502,JP503,JP504,JP505 | HEADER 2X2 | CONN HEADER R/A 4POS 2.54MM | TSW-102-08-F-D-RA | Samtec | Mouser TSW-102-08-F-D-RA |

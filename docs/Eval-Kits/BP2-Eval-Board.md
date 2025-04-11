@@ -8,13 +8,13 @@ How BP2 Eval Boards are assembled
 
 ---
 
-## BP2 Frame Board Source Files
+## Frame Board Source Files
 
-Link to GitHub
+Source files for the BP2 frame board design and assembly are found here on the COSMIIC GitHub :link: **[Evaluation-Kits-Hardware/"BP2-Eval-Board" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Evaluation-Kits-Hardware/tree/main/BP2-Eval-Board)**
 
 ---
 
-## BP2 Eval Board Bill of Materials (BOM)
+## Eval Board Bill of Materials (BOM)
 | BOM # | QTY per Board | Connector(s) Name | Type | Description | Part # | Manufacturer | Link to Order |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 5 | JP201,JP203,JP301,JP401,JP402,JP403,JP404...JP408 | HEADER 1
