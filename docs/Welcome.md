@@ -7,11 +7,13 @@ slug: /
 
 ---
 
-### What We Do
+### What is COSMIIC?
 
-We are establishing and sustaining an open source ecosystem of users and resources surrounding a unique modular active implantable device for use in fundamental neuroscience, animal, and early feasibility human research.  
+A resource to go from theory to therapy in neuromodulation without recreating the wheel.
 
-The COSMIIC System is based on the Networked Neuroprosthetic (NNP) System, which was invented at Case Western Reserve University. Under the NNP namesake, the system has demonstrated success in an early feasibility human study for restoring hand grasp function in individuals with spinal cord injury. The goal of the COSMIIC effort is to make this system available to the entire neuromodulation research community in an open and collaborative environment. Our open source concept includes all aspects of the implantable system that are necessary for pre-clinical and human use--hardware, software, mechanical components, test documents, and regulatory documents--with the hope that access leads to more human therapies.
+We are establishing an open source ecosystem of users and resources surrounding a unique active implantable device ready for use in fundamental neuroscience, animal, and early feasibility human research.
+
+The COSMIIC System is based on the Networked Neuroprosthetic (NNP) System, which was invented at Case Western Reserve University. Under the NNP namesake, the system has demonstrated success in an early feasibility human study for restoring hand grasp function in individuals with spinal cord injury. COSMIIC is the next era for this device, making it available to the entire neuromodulation research community in an open and collaborative environment. Our open source concept includes all aspects of the implantable system that are necessary for pre-clinical and human use&mdash;hardware, software, mechanical components, test documents, and regulatory documents&mdash;with the hope that access leads to more human therapies.
 
 Catch up with our most recent poster: :file_folder: **[COSMIIC Overview October 2024.pdf](./img/cosmiic-poster-2025.pdf)**
 
