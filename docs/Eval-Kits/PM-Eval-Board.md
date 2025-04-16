@@ -10,7 +10,7 @@ How PM Eval Boards are assembled
 
 ## Frame Board Source Files
 
-Source files for the PM frame board design and assembly are found here on the COSMIIC GitHub :link: **[Evaluation-Kits-Hardware/"PM-Eval-Board" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Evaluation-Kits-Hardware/tree/main/PM-Eval-Board)**
+Source files for the PM frame board design and assembly are found here on the COSMIIC GitHub :link: **[EvaluationKits-Hardware/"PM-Eval-Board" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/EvaluationKits-Hardware/tree/main/PM-Eval-Board)**
 
 ---
 

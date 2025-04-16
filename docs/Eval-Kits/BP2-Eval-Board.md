@@ -10,7 +10,7 @@ How BP2 Eval Boards are assembled
 
 ## Frame Board Source Files
 
-Source files for the BP2 frame board design and assembly are found here on the COSMIIC GitHub :link: **[Evaluation-Kits-Hardware/"BP2-Eval-Board" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Evaluation-Kits-Hardware/tree/main/BP2-Eval-Board)**
+Source files for the BP2 frame board design and assembly are found here on the COSMIIC GitHub :link: **[EvaluationKits-Hardware/"BP2-Eval-Board" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/EvaluationKits-Hardware/tree/main/BP2-Eval-Board)**
 
 ---
 

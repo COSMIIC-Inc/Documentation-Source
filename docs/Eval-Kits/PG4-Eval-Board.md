@@ -10,7 +10,7 @@ How PG4 Eval Boards are assembled
 
 ## Frame Board Source Files
 
-Source files for the PG4 frame board design and assembly are found here on the COSMIIC GitHub :link: **[Evaluation-Kits-Hardware/"PG4-Eval-Board" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Evaluation-Kits-Hardware/tree/main/PG4-Eval-Board)**
+Source files for the PG4 frame board design and assembly are found here on the COSMIIC GitHub :link: **[EvaluationKits-Hardware/"PG4-Eval-Board" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/EvaluationKits-Hardware/tree/main/PG4-Eval-Board)**
 
 ---
 
