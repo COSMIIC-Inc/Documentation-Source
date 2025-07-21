@@ -58,31 +58,32 @@ These materials are mostly hosted on this site and cosmiic.org. This docs.cosmii
     - Example IDE
     - Example BEP
 
-### Open Patents 
+---
 
-The COSMIIC system utilizes several open patents. The summary of the most recent patent continuations are highlighted below. 
+## Description of Materials
 
-#### Neural Prosthesis
+The technology of the COSMIIC System is involved in multiple patents, grants, and regulatory filings. We are releasing all relevant design and documentation related to these patents, which includes all hardware, software and other technology described in the Early Feasibility Study of the Networked Neuroprosthesis IDE G0140225 and its subsequent amendments, as well as all or any of the inventions and developments described or disclosed therein, patents, patent applications (including but not limited to those referenced below), and any formulations, compositions, methods and physical embodiments thereof, test data, test procedures, test methods, figures, manuscripts, regulatory filings, regulatory correspondence, and know-how related thereto, as well as all work funded by the NIH SPARC HORNET Grant U41-NS129436, "The Cleveland Open Source Modular Implant Innovators Community."
 
-- Patent No.: US 9,108,060 B2 | Date of Patent File: 08/01/2013 | Date of Patent Issued: 08/18/2015  
-  Assignee: Case Western Reserve University                             
+### Neural Prosthesis  
 
-- Summary: This invention describes an implantable neural prosthesis system that is modular in nature. There is a central controller    that is able to supply data, signals, and power to various subsystem modules. Each of these modules are programmable for a specific individual need or they can be dynamically aggregated to execute coordinated body movements. The neural system supports bidirectional communication with the modules throughout various regions of the body using wired or wireless connections. The subsystem modules themselves can include sensors for EEG, EMG, EOG, and accelerometers, while also having drug delivery devices and stimulators. A fundamental innovation is that a controller — in real time — is able to reassign devices with the network system to adapt to changing needs, which is able to improve scalability. The neural prosthesis system’s vision is for complete implantation and also have external devices intended for programming, diagnostics, and communication. The final goal is to coordinate the system to perform tasks like grasping or walking for patients with neural injuries. 
+**Patent #:** :file_folder: [US-9108060-B2](./img/9108060.pdf)  
+**Filed:** 2013-08-01   **Issued:** 2015-08-18  
+**Assignee:** Case Western Reserve University  
 
-- This patent is the continuation of the following parent patents that were filed and issued prior: 
+**Abstract (from USPTO filing):** "A neural prosthesis includes a centralized device that can provide power, data, and clock signals to one or more individual neural prosthesis subsystems. Each subsystem may include a number ofindividually addressable, programmable modules that can be dynamically allocated or shared among neural prosthetic networks to achieve complex, coordinated functions or to operate in autonomous groups."
 
-    - Patent No.: US 7,260,436 B2 | Date of Patent File: 10/16/2002 | Date of Patent Issued: 8/21/2007                              
-    Assignee: Case Western Reserve University                                 
+This patent is the continuation of the following parent patents that were filed and issued prior:
 
-    - Patent No.: US 8,532,786 B2 | Date of Patent File: 08/21/2007 | Date of Patent Issued: 9/10/2013                                
-    Assignee: Case Western Reserve University                                 
+| Patent # (download link) | Filed | Issued | Assignee |
+|---|---|---|---|
+| :file_folder: [US-7260436-B2](./img/7260436.pdf) | 2002-10-16 | 2007-08-21 | Case Western Reserve University |
+| :file_folder: [US-8532786-B2](./img/8532786.pdf) | 2007-08-21 | 2013-09-10 | Case Western Reserve University |
+| :file_folder: [US-8768482-B2](./img/8768482.pdf) | 2012-06-16 | 2014-06-01 | Case Western Reserve University |
 
-    - Patent No.: US 8,768,482 B2 | Date of Patent File: 06/16/2012 | Date of Patent Issued: 06/01/2014                                 
-    Assignee: Case Western Reserve University                               
+### Asymmetrical Force Connector System
 
-#### Asymmetrical Force Connector System
+**Patent #:** :file_folder: [US-10634181-B2](./img/10634181.pdf)  
+**Filed:** 2013-03-12   **Issued:** 2020-04-28  
+**Assignee:** Case Western Reserve University  
 
-- Patent No.: US 10,634,181 B2 | Date of Patent File: 03/12/2013 | Date of Patent Issued: 04/28/2020                                  
-Assignee: Case Western Reserve University                               
-
-- Summary: This invention utilizes a special socket and connection pin setup to control asymmetric insertion and retraction forces. Specifically, it uses a toroidal canted coil spring that is embedded in a spring-receiving cavity around a longitudinal shaft bore. There is a connector pin with a longitudinally asymmetrical V-groove that can slide into the bore. Upon insertion, the V-groove of the pin aligns with the toroidal canted coil spring and a part of the spring can enter the groove, which is known as a maintenance position. This was carefully designed so that insertion of the pin into the spring needs just a modest force, but retraction needs a much larger force due the shape of the V-groove and spring interaction. This asymmetric force response provides a clear mechanical security against unintended disengagement but when the large retraction force threshold is met, there can be intended disengagement. The patent also covers various methodologies for pin insertion and removal by chronicling the force differentials. 
+**Abstract (From USPTO filing):** "An asymmetrical-force connector system includes a socket having a longitudinally-oriented shaft bore defining a bore axis. A spring-receiving cavity is coaxial with the bore axis and extends laterally around the shaft bore. The spring-receiving cavity has an inner circumference that is open to the shaft bore. A toroidal canted coil spring is located at least partially within the spring-receiving cavity. The toroidal canted coil spring has an inner spring circumference. A connector pin including a maximum shaft circumference is configured for selective sliding insertion into the shaft bore longitudinally from the front housing face. A v-groove extends laterally inward from the maximum shaft circumference toward the pin axis and defines a minimum shaft circumference. The connector pin is located in a maintenance position within the shaft bore when at least a portion of the toroidal canted coil spring laterally extends into the v-groove beyond the maximum shaft circumference."
