@@ -74,7 +74,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Announcement: We will be presenting at the Open Hardware Summit on May 30-31, 2025! See FAQs for more conference dates',
+          'Announcement: We will be presenting at the Open Healthware Conference on August 1-2, 2025! See FAQs for more conference dates',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,
