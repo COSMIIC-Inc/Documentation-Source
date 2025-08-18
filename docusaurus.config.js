@@ -129,6 +129,7 @@ const config = {
       {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['matlab'],
       },
     }),
 };
