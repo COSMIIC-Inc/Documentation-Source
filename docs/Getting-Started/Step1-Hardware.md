@@ -86,8 +86,9 @@ After the PM has passed through bootloader mode, a red LED will start blinking o
   - Bottom 2 pins = `BUSB`
 - Left jumper set: stack  
 - Right jumper set: external modules
-
 :::
+
+---
 
 ### Wireless Interface - Wireless Link Hardware
 

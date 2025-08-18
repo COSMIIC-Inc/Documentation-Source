@@ -16,7 +16,9 @@ Example software projects to get started with the COSMIIC System
 - MATLAB
 - Local clone of the [**NNP-API**](https://github.com/COSMIIC-Inc/NNP-API) Github repository
 
-## Common API Commands and Apps
+---
+
+## Common Apps in NNP-API
 ```matlab title="commonDevKitCommands.m"
 %% create nnp artifact for access point. Select COM port.
 nnp=NNPHELPERS()
