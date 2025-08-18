@@ -173,16 +173,19 @@ nnp.setSync(25); %25ms sync or (1000 / 25 ms) = 40 Hz frequency
 nnp.enterTestStim; % mode change to enable stimulation
 
 % turn on stimulation at one channel. Make sure you have the correct node #
-nnp.write(5, '3212', 1, [50,5*10]); %module at node 6, 'indexOD for stim', channel 1, 50ms pulsewidth, 5 mA pulseamp
+nnp.write(5, '3212', 1, [50,5*10]); %module at node 5, 'indexOD for stim', channel 1, 50ms pulsewidth, 5 mA pulseamp
+pause(1);
 
 %Turn off stimulation
 nnp.write(5, '3212', 1, [0,0]);
+pause(1);
 
 % Example: Set PW and PA on each channel
 nnp.write(5, '3212', 1, [50, 50]);   % Set channel 1 of node 5 to 50us, 5mA @ 40 Hz
 nnp.write(5, '3212', 2, [100, 100]); % Set channel 2 of node 5 to 100us, 10mA @ 40 Hz
 nnp.write(5, '3212', 3, [150, 150]); % Set channel 3 of node 5 to 150us, 15mA @ 40 Hz
 nnp.write(5, '3212', 4, [255, 200]); % Set channel 4 of node 5 to 255us, 20mA @ 40 Hz
+pause(1);
 
 %transition from TestStim mode to Waiting. Stimulation will end.
 nnp.enterWaiting;
