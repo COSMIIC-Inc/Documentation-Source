@@ -67,3 +67,17 @@ td {
 b, strong {
   color: #0C6F6E;
   }
+
+img {
+  display: block; /* Images are inline by default, convert to block */
+  margin-left: auto;
+  margin-right: auto;
+  /* Optional: Set a width for the image if it's not already defined */
+  /* width: 50%; */
+}
+
+table {
+  margin: auto auto;
+  /* Optional: Set a specific width for the table if it's not 100% */
+  width: 80%; /* Example: Sets the table width to 80% of its container */
+}
