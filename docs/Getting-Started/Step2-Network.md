@@ -8,7 +8,7 @@ This guide introduces the COSMIIC System's network, API, and first steps to cont
 
 ---
 
-## Software Overview
+## System Overview
 
 The COSMIIC System and its networked concept operate through multiple layers of embedded firmware and external software, bridged by wireless radio communication. 
 
