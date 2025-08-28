@@ -41,6 +41,12 @@ The PG4 Development Board consists of a PG4 module circuit board and an accompan
 
 ![Example setup for measuring stim output](./img/PG4-Stim-Oscilloscope.png)
 
+### Switching Output between LEDs and Touch-Proof Connectors
+
+PG4 development boards come with an array of 200 ohm resistors. The resistors represent a simulated load and route current to the LEDs. Use a pick or small tool to separate the array from its connector JP601 in order to open that circuit and ensure all current is being routed to the External Electrode Connections (Touch-proof connectors and 2.54mm pin connectors)
+
+![5 resistors soldered across pin connector array](./img/pg4-resistor-array.jpg)
+
 ---
 
 ## Stimulation Pulse Parameters
