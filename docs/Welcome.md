@@ -11,9 +11,9 @@ slug: /
 
 A resource to go from theory to therapy in neuromodulation without recreating the wheel.
 
-We are establishing an open source ecosystem of users and resources surrounding a unique active implantable device ready for use in fundamental neuroscience, animal, and early feasibility human research.
+COSMIIC is establishing an open source ecosystem of users and resources surrounding a unique active implantable device ready for use in fundamental neuroscience, animal, and early feasibility human research.
 
-The COSMIIC System is based on the Networked Neuroprosthetic (NNP) System, which was invented at Case Western Reserve University. Under the NNP namesake, the system has demonstrated success in an early feasibility human study for restoring hand grasp function in individuals with spinal cord injury. COSMIIC is the next era for this device, making it available to the entire neuromodulation research community in an open and collaborative environment. Our open source concept includes all aspects of the implantable system that are necessary for pre-clinical and human use&mdash;hardware, software, mechanical components, test documents, and regulatory documents&mdash;with the hope that access leads to more human therapies.
+The COSMIIC System is based on the Networked Neuroprosthetic (NNP) System, which was invented at Case Western Reserve University. COSMIIC is currently an NIH SPARC-funded project to open access to this device for the entire field of neuromodulation R&D and will eventually transition into a distributed, collaborative community. Our open source concept includes all aspects of the implantable system that are necessary for pre-clinical and human use&mdash;hardware, software, mechanical components, test documents, and regulatory documents&mdash;with the hope that access leads to more human therapies.
 
 Catch up with our most recent poster: :file_folder: **[COSMIIC Overview October 2024.pdf](./img/cosmiic-poster-2025.pdf)**
 
@@ -33,7 +33,7 @@ Catch up with our most recent poster: :file_folder: **[COSMIIC Overview October 
 >
 > - Join our Newsletter **[with this sign-up link](https://cosmiic.org/join-now/)**
 
-The rest of the sidebar categories will be populated soon!
+***BETA NOTICE: This documentation site is currently in a Beta phase and is being updated fluidly. Once this documentation site reaches a state of fullness and stability, we will implement versioning (v1.0 and on) as the technology and community evolves.***
 
 ---
 
