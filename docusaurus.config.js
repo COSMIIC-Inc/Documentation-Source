@@ -22,10 +22,12 @@ const config = {
   projectName: 'COSMIIC-Inc.github.io', // Usually your repo name.
   deploymentBranch: 'main', //  deployment branch on COSMIIC-Inc.github.io repo
 
+  // Handling bad links and images
   onBrokenLinks: 'warn',
 
-  /** Updated for deprecation approaching for Docusaurus v4.0. Previously set to 'throw' to allow category/Implantables in Welcome.md */
+  /// Updated for deprecation approaching for Docusaurus v4.0. Previously set to 'throw' to allow category/Implantables in Welcome.md 
   markdown: {
+    mermaid: true,
     hooks: {
       onBrokenMarkdownLinks: 'warn',
       onBrokenMarkdownImages: 'throw',
@@ -71,6 +73,8 @@ const config = {
       }),
     ],
   ],
+
+  themes: ['@docusaurus/theme-mermaid'],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -132,6 +136,7 @@ const config = {
         },
         copyright: `Copyright © ${new Date().getFullYear()} COSMIIC`,
       },
+      themes: ['@docusaurus/theme-mermaid'],
       prism: 
       {
         theme: lightCodeTheme,
