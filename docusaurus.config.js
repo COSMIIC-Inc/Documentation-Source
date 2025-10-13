@@ -22,9 +22,16 @@ const config = {
   projectName: 'COSMIIC-Inc.github.io', // Usually your repo name.
   deploymentBranch: 'main', //  deployment branch on COSMIIC-Inc.github.io repo
 
-  /** Set to allow category/Implantables in Welcome.md */
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'throw',
+
+  /** Updated for deprecation approaching for Docusaurus v4.0. Previously set to 'throw' to allow category/Implantables in Welcome.md */
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+      onBrokenMarkdownImages: 'throw',
+
+    },
+  },
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -74,7 +81,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Announcement: We will be presenting at the Open Healthware Conference on August 1-2, 2025! See FAQs for more conference dates',
+          'Announcement: We will be attending Society for Neuroscience in San Diego, California! Contact us at open_source@cosmiic.org to set up a meeting!',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,
