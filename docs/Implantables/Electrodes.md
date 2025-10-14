@@ -29,7 +29,7 @@ and connector end, creating a single conductor with half the electrical resistan
 
 ### Intramuscular Stimulating Electrodes
 
-![image](./img/graphic-red-connector.png) 
+![image](./img/red-connector-resized.png) 
 
 ![image](./img/graphic-im-electrode.png)
 
@@ -37,7 +37,7 @@ The intramuscular stimulating surface is 2mm long with an approximate surface ar
 
 ### Epimysial Stimulating Electrodes
 
-![image](./img/graphic-green-connector.png) 
+![image](./img/green-connector-resized.png) 
 
 ![image](./img/graphic-epimysial-electrode.png)
 
