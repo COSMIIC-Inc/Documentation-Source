@@ -6,15 +6,13 @@ sidebar_position: 1
 
 Power and processing module with 2 network ports
 
-:link: **[Implantables-PM-Hardware on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PM-Hardware)**
-
 ---
 
 ## Component Overview
 
 The Power Module is an implanted module that has two key functions. First, it houses the rechargeable Li-ion batteries that supply power to the entire NNP implanted system, along with the required recharging link and circuitry. Second, it contains the wireless MedRadio link for transcutaneous communication and system programming. The power module connects to the network through the network cable, placing power onto it for distribution to all remote modules. During functional operation, the power module primarily functions as the power source for the entire implanted NNP system. However, due to its significant processing power, it is capable of performing signal processing and data storage in support of the remote module functions when required.
 
-![NNP Device](./img/nnp.jpg)
+![power module graphic](./img/power-module-resized.png)
 
 ---
 
@@ -32,13 +30,31 @@ The Power Module and Remote Module headers have allowance for up to four and eig
 
 ---
 
-## Documentation
+## Mechanical Design Files and Drawings
 
-### Mechanical Design Files and Drawings
 All files and drawings for the design of the Power Module are available on the COSMIIC GitHub here:
 
 :link: **[Implantables-PM-Hardware/"Mechanical Design CAD Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PM-Hardware/tree/main/Mechanical%20Design%20CAD%20Files)**
 
+---
+
+## PCB Files
+
+This repository is up-to-date with the newest version of the Power Module circuit board. This newest version is the PM1C, updated from the PM1B. Our team transitioned the design files from Altium to KiCad to enable increased free and open source interactions.
+
+:link: **[Implantables-PM-Hardware/"NNP-DWG-115-004-000 PCB Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PM-Hardware/tree/main/NNP-DWG-115-004-000%20PCB%20Files)**
+
+---
+
+## Firmware Source Code
+
+:link: **[Implantables-PM-Application on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PM-Application)**
+:link: **[Implantables-PM-Bootloader on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PM-Bootloader)**
+
+Guidance on the build and flash process are incoming.
+
+---
+
 ## Coming soon...
 
-Information on the module firmware, fabrication process, manufacturing partners, and how to obtain Power Modules will be uploaded soon.
+Information on the fabrication process, manufacturing partners, and how to obtain Power Modules will be uploaded soon.
