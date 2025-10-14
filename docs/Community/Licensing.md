@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # Licensing
@@ -8,9 +8,9 @@ How you can use and redistribute our technology and documentation
 
 ---
 
-## Summary of Licenses by Material
+## Summary of Licenses
 
-In July 2024, COSMIIC Inc, a B-corp formed to serve the COSMIIC ecosystem, finalized a license agreement with Case Western Reserve University. The non-exclusive agreement granted COSMIIC Inc the privilege of sublicensing to the world all former intellectual property related to the COSMIIC System + new developments under the NIH SPARC HORNET program.
+In July 2024, COSMIIC Inc, a B-corp formed in parallel with the COSMIIC grant, finalized a license agreement with Case Western Reserve University. The non-exclusive agreement granted COSMIIC Inc the privilege of sublicensing to the world all former intellectual property related to the COSMIIC System + new developments under the NIH SPARC HORNET program.
 
 To ensure maximally-permissive use of COSMIIC source files and documentation, we have chosen mixed license approach to licensing the different materials you will find on our webpages and GitHub. The licenses allow unrestricted development and commercial applications. All we ask of you is that you spread the word and provide attribution to COSMIIC. Below is a summary tofo our approach so that you can always understand how you are able to use our materials.
 
@@ -62,7 +62,12 @@ These materials are mostly hosted on this site and cosmiic.org. This docs.cosmii
 
 ## Description of Materials
 
-The technology of the COSMIIC System is involved in multiple patents, grants, and regulatory filings. We are releasing all relevant design and documentation related to these patents, which includes all hardware, software and other technology described in the Early Feasibility Study of the Networked Neuroprosthesis IDE G0140225 and its subsequent amendments, as well as all or any of the inventions and developments described or disclosed therein, patents, patent applications (including but not limited to those referenced below), and any formulations, compositions, methods and physical embodiments thereof, test data, test procedures, test methods, figures, manuscripts, regulatory filings, regulatory correspondence, and know-how related thereto, as well as all work funded by the NIH SPARC HORNET Grant U41-NS129436, "The Cleveland Open Source Modular Implant Innovators Community."
+The technology of the COSMIIC System is involved in multiple patents, grants, and regulatory filings. We are releasing all relevant design and documentation related to the below patents, which includes all hardware, software and other technology described in:
+
+- The Early Feasibility Study of the Networked Neuroprosthesis IDE G0140225 and its subsequent amendments
+- All or any of the inventions and developments described or disclosed therein, patents, patent applications (including but not limited to those referenced below)
+- Any formulations, compositions, methods and physical embodiments thereof, test data, test procedures, test methods, figures, manuscripts, regulatory filings, regulatory correspondence
+- All work funded by the NIH SPARC HORNET Grant U41-NS129436, titled "The Cleveland Open Source Modular Implant Innovators Community."
 
 ### Neural Prosthesis  
 
