@@ -47,7 +47,7 @@ The COSMIIC System and its networked concept operate through multiple layers of 
   - NNP-API holds several fundamental commands for scripting (i.e. in NNPCORE and NNPHELPERS) and a subdirectory of designed apps with a GUI.
 - **Layer 7: MATLAB Apps**
   - There are several user-ready GUIs made by the COSMIIC team which can be used for operating the device and testing out certain functionalities.
-  - These can be found in the [**NNP-API repository**](https://github.com/COSMIIC-Inc/NNP-API) and some are listed on the [**Example Code**](./Example-Code.md) page
+  - These can be found in the [**NNP-API repository, /apps/ directory**](https://github.com/COSMIIC-Inc/NNP-API)
 
 ---
 
