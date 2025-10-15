@@ -11,10 +11,10 @@ Power and physical network transmission cable
 ---
 
 ## Component Overview
- 
-![image](./img/blue-connector-resized.png)
 
 The Network Cable is the conduit for conducting power and communications between implanted modules in the COSMIIC System. Power on the Network Cable is provided by connection to the Power Module's rechargeable battery. Network communication can be generated on the  Network Cable by any module. The Network Cable is a critical component of the COSMIIC System because all remote modules depend on its proper functioning for power and communication. Every remote module must be connected to the COSMIIC System network through a Network Cable.
+
+![image](./img/blue-connector-resized.png)
 
 ---
 

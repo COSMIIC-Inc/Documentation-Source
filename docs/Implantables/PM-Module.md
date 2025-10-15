@@ -22,14 +22,6 @@ The power module is designed to be implanted in the torso, typically either ches
 
 ---
 
-## Subcomponents
-
-### Port Plugs
-
-The Power Module and Remote Module headers have allowance for up to four and eight network or electrode cable connections, respectively. These header connections are closed with a port plug that is placed in the connection during manufacture. Port plugs are removed at the time of surgery to accommodate connection to the Power Module or Remote Module headers.
-
----
-
 ## Mechanical Design Files and Drawings
 
 All files and drawings for the design of the Power Module are available on the COSMIIC GitHub here:
