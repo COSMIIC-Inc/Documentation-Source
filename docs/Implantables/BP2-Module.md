@@ -31,6 +31,21 @@ All files and drawings for the design of the Biopotential Recording Module are a
 
 :link: **[Implantables-BP2-Hardware/"Mechanical Design CAD Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-BP2-Hardware/tree/main/Mechanical%20Design%20CAD%20Files)**
 
+---
+
+## PCB Files
+
+:link: **[Implantables-BP2-Hardware/"NNP-DWG-165-001-000 PCB Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-BP2-Hardware/tree/main/NNP-DWG-165-001-000%20BP2%20PCB%20Files)**
+
+---
+
+## Firmware Source Code
+
+:link: **[Implantables-BP2-Application on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-BP2-Application)**
+:link: **[Implantables-RemoteModules-Bootloader on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-RemoteModules-Bootloader)**
+
+Guidance on the build and flash process are incoming.
+
 ## Coming soon...
 
-Information on the module firmware, fabrication process, manufacturing partners, and how to obtain Biopotential Recording Modules will be uploaded soon.
+Information on the fabrication process, manufacturing partners, and how to obtain Biopotential Recording Modules will be uploaded soon.

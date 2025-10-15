@@ -31,6 +31,21 @@ All files and drawings for the design of the Biopotential Recording Module are a
 
 :link: **[Implantables-PG4-Hardware/"Mechanical Design CAD Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PG4-Hardware/tree/main/Mechanical%20Design%20CAD%20Files)**
 
+---
+
+## PCB Files
+
+:link: **[Implantables-PG4-Hardware/"NNP-DWG-125-001-000 PCB Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PG4-Hardware/tree/main/NNP-DWG-125-001-000%20PG4%20PCB%20Files)**
+
+---
+
+## Firmware Source Code
+
+:link: **[Implantables-PG4-Application on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PG4-Application)**
+:link: **[Implantables-RemoteModules-Bootloader on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-RemoteModules-Bootloader)**
+
+Guidance on the build and flash process are incoming.
+
 ## Coming soon...
 
-Information on the module firmware, fabrication process, manufacturing partners, and how to obtain Pulse Generator Modules will be uploaded soon.
+Information on the fabrication process, manufacturing partners, and how to obtain Pulse Generator Modules will be uploaded soon.

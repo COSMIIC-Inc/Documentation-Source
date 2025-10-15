@@ -2,9 +2,9 @@
 sidebar_position: 6
 ---
 
-# Examples
+# Basic Applications
 
-Example software projects to get started with the COSMIIC System
+Existing applications to get started with the COSMIIC System
 
 ---
 
@@ -19,6 +19,10 @@ Example software projects to get started with the COSMIIC System
 ---
 
 ## Common Apps in NNP-API
+
+Open ../NNP-API as your working directory in Matlab and use the following commands in a script or Command Window
+
+
 ```matlab title="commonDevKitCommands.m"
 %% create nnp artifact for access point. Select COM port.
 nnp=NNPHELPERS()
