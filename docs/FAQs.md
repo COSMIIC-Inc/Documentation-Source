@@ -16,20 +16,17 @@ Fill out the **[Contact](https://cosmiic.atlassian.net/servicedesk/customer/port
 
 :::danger When can I expect more documents to be available?
 
-Open source COSMIIC System hardware documents were released August 31st, 2024! Module firmware/software are rolling in and an official v1.0 release date for the entire system will be announced soon.
+Open source COSMIIC System hardware documents were released August 31st, 2024! Module firmware/software are rolling in during 2025 and an official v1.0 release date for the entire system will be announced soon.
 
 :::
 
 :::tip What conferences will the COSMIIC team be at?
 
-Our team will be at the following conferences this Spring/Summer 2025:
+Our team will be at the following conferences this Summer/Fall 2025:
 
-- Bioelectronic Medicine Summit (March 4-5, 2025) in New York City
-- IFESS Conference (May 12-16) in Chicago
-- Open Hardware Summit (May 30-31) in Edinburgh
 - Neural Interfaces Conference (June 12-14) in Arlington, Virginia  
 - Open Healthcare Summit (August 1-2) in New York City
-
+- Society for Neuroscience (November 15-19) in San Diego
 
 :::
 
