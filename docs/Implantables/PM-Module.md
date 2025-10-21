@@ -41,6 +41,7 @@ This repository is up-to-date with the newest version of the Power Module circui
 ## Firmware Source Code
 
 :link: **[Implantables-PM-Application on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PM-Application)**
+
 :link: **[Implantables-PM-Bootloader on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PM-Bootloader)**
 
 Guidance on the build and flash process are incoming.
