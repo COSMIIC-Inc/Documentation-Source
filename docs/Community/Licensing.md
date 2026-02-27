@@ -12,7 +12,7 @@ How you can use and redistribute our technology and documentation
 
 In July 2024, COSMIIC Inc, a B-corp formed in parallel with the COSMIIC grant, finalized a license agreement with Case Western Reserve University. The non-exclusive agreement granted COSMIIC Inc the privilege of sublicensing to the world all former intellectual property related to the COSMIIC System + new developments under the NIH SPARC HORNET program.
 
-To ensure maximally-permissive use of COSMIIC source files and documentation, we have chosen mixed license approach to licensing the different materials you will find on our webpages and GitHub. The licenses allow unrestricted development and commercial applications. All we ask of you is that you spread the word and provide attribution to COSMIIC. Below is a summary tofo our approach so that you can always understand how you are able to use our materials.
+To ensure maximally-permissive use of COSMIIC source files and documentation, we have chosen mixed license approach to licensing the different materials you will find on our webpages and GitHub. The licenses allow unrestricted development and commercial applications. All we ask of you is that you spread the word and provide attribution to COSMIIC. Below is a summary to our approach so that you can always understand how you are able to use our materials.
 
 ### Hardware Source File Licensing - CERN-OHL-P-2.0
 
