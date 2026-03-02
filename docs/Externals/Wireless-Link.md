@@ -23,6 +23,14 @@ This code is based on:
 
 ---
 
+## Firmware Source Code
+
+:link: **[Externals-WirelessLink-Application on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Externals-WirelessLink-Application)**
+
+Guidance on the build and flash process are below.
+
+---
+
 ## Development Environment
 For instructions on installing VS Code and nRF Connect SDK see: **https://academy.nordicsemi.com/courses/nrf-connect-sdk-fundamentals/**
 
@@ -32,11 +40,11 @@ For instructions on installing VS Code and nRF Connect SDK see: **https://academ
 
 ### Open Application
 Use the `Externals-WirelessLink-Application/wirelesslink` directory as the project folder in VS Code. Open the nRF Connect extension in the sidebar. Under the Welcome dropdown, click "Open an existing application" and select the "wirelesslink" folder in the file explorer.
-![open app](./img/OpenApplication.jpg)
+![open app](./img/OpenApplication.JPG)
 
 ### Build Configuration
 Under the Applications dropdown, set the board to `cosmiic_wireless_link_nrf5340_cpuapp` and enable debug options
-![build config](./img/BuildConfig.jpg)
+![build config](./img/BuildConfig.JPG)
 
 If the custom boards option does not appear, add your `boards` folder to BOARD_ROOT, by going to File -> Preferences -> Settings.  Search for "nRF-Connect: Board Roots" and add path to `C:\Users\username\Documents\GitHub\Externals-WirelessLink-Application\wirelesslink\boards` folder.
 ![board root](./img/BoardRoot.JPG)
@@ -85,9 +93,13 @@ Debug messages can be viewed in JLink RTT Viewer.
 
 ## Pin definitions
 
-***Indicates use in Smart Charger***
-All GPIO can be used as I2C, UART, SPI, or PWM 
+:::tip
+All GPIO can be used as I2C, UART, SPI, or PWM.
+
 Primary function is as currently configured in board files.  Overlays can be used to provide alternate functions
+
+***Indicates use in Smart Charger***
+:::
 
 | GPIO | Primary Function | Alt Function | Accessibility |
 |---|---|---|---|
@@ -128,7 +140,7 @@ Primary function is as currently configured in board files.  Overlays can be use
 | P1.02 | IMU SDA | shareable I2C2 SDA | expansionport, charger IO connector |
 | P1.03 | IMU SCL | shareable I2C2 SCL | expansionport, charger IO connector |
 | P1.04 | GPIO |  | expansionport |
-| P1.05 | ***COILDRIVE_PWM ***| GPIO | expansionport |
+| P1.05 | ***COILDRIVE_PWM***| GPIO | expansionport |
 | P1.06 | ***COILDRIVE_EN***| GPIO | expansionport |
 | P1.07 | LED_GREEN | GPIO | expansionport, LED |
 | P1.08 | CC1101_MOSI | shareable SPI1_MOSI | expansionport, charger IO connector (optB) |
@@ -221,7 +233,7 @@ multiple bytes are presented Little Endian
 
 ### Commands
 
-| NAME | CMD    |  byteToWL | byteFromWL  |Description|
+| NAME | CMD    |  bytesToWL | bytesFromWL  |Description|
 |---|---|---|---|---|  
 |GET_PRODUCT_ID              |0x20|     0   |     4       |   Returns HW and SW revision numbers |
 |                            |    |         |             |                                      |
