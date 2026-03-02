@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'COSMIIC Documentation',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Community-Driven Open Source Neuromodulation',
   favicon: 'img/Cosmiic_favicon-150x150.png',
 
   // Set the production url of your site here
@@ -85,7 +85,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Announcement: We will be attending Society for Neuroscience in San Diego, California! Contact us at open_source@cosmiic.org to set up a meeting!',
+          'Announcement: Follow us on LinkedIn at https://www.linkedin.com/company/cosmiic/ for the latest updates!',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: true,
