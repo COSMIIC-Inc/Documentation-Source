@@ -31,7 +31,7 @@ jobs:
           USE_SSH: true
         run: |
           echo "Configure git settings"
-          git config --global user.email "crexroth@metrohealth.org"
+          git config --global user.email "crexroth@cosmiic.org"
           git config --global user.name "crexroth"
           echo "Install dependencies (clean install) based on package-lock.json"
           npm ci
