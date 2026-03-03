@@ -70,7 +70,7 @@ New firmware can be uploaded to the Wireless Link without using the JTAG link. T
 
 ![configuration menu on AuTerm](./img/AuTerm-Config.png)
 
-* In the “MCUmgr” tab, press "Connect" and set the “File” to point to your built application. This can be either `wirelesslink.signed.bin` (unzipped from `build/dfu_application.zip`) folder or `build/wirelesslink/zephyr/zephyr.signed.bin`
+* In the “MCUmgr” tab, press "Open" and set the “File” to point to your built application. This can be either `wirelesslink.signed.bin` (unzipped from `build/dfu_application.zip`) folder or `build/wirelesslink/zephyr/zephyr.signed.bin`
 
 ![MCU manager menu on AuTerm](./img/AuTerm-MCUmgr.png)
 
@@ -323,12 +323,15 @@ multiple bytes are presented Little Endian
 |CHG_GET_CHARGEMODE          |0xA0|    0    |   1         | |
 |CHG_SET_CHARGEMODE          |0xA1|    1    |   0         | |
 
+---
+
 ## Future updates:
 * Some of the GPIO is defined in wlgpio.c/h and the generic GPIO API is used.  These GPIO definitions may be moved to the devicetree
 * The sensor thread and ISM330IS is not currently enabled.  The sensor API could be used with a driver implemented for ISM330IS.  However, the sensor API does not directly supprt some of the advanced functions (ISPU, quaternion output).  We will likely implement I2C generic code without a driver
 * The CC1101 is implemented without a driver
 * The Charger I2C devices are implemented without drivers
 * Charger vs Wireless link is #define in main.c.  May move to CONFIG in prj.comf or build directive
+
 ## Coming Soon...
 
-Source files for PCB design and firmware are on the way...
+Source files for PCB design are on the way...
