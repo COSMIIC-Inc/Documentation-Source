@@ -27,9 +27,9 @@ The total length of the cable varies depending on the location in the body, but 
 
 ---
 
-## Documentation 
+## Source Files 
 
-### Mechanical Design Files and Drawings
+### Mechanical Design and Drawings
 All files and drawings for the design of the Network Cable are available on the COSMIIC GitHub here:
 
 :link: **[Implantables-NetworkCable/"Mechanical Design CAD Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-NetworkCable/tree/main/Mechanical%20Design%20CAD%20Files)**

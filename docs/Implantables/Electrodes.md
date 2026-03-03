@@ -45,9 +45,9 @@ The epimysial stimulating electrode is a platinum-iridium disk with a brim suppo
 
 ---
 
-## Documentation 
+## Source Files 
 
-### Mechanical Design Files and Drawings
+### Mechanical Design and Drawings
 All files and drawings for the design of the Electrodes are available on the COSMIIC GitHub here:
 
 :link: **[Implantables-Electrodes/"Mechanical Design CAD Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-Electrodes/tree/main/Mechanical%20Design%20CAD%20Files)**

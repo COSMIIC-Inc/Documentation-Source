@@ -24,22 +24,18 @@ The PG has internal processing based on the AVR-core processor (Atmel AT90CAN128
 
 ---
 
-## Documentation
+## Source Files
 
-### Mechanical Design Files and Drawings
+### Mechanical Design and Drawings
 All files and drawings for the design of the Biopotential Recording Module are available on the COSMIIC GitHub here:
 
 :link: **[Implantables-PG4-Hardware/"Mechanical Design CAD Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PG4-Hardware/tree/main/Mechanical%20Design%20CAD%20Files)**
 
----
-
-## PCB Files
+### PCB and Schematics
 
 :link: **[Implantables-PG4-Hardware/"NNP-DWG-125-001-000 PCB Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PG4-Hardware/tree/main/NNP-DWG-125-001-000%20PG4%20PCB%20Files)**
 
----
-
-## Firmware Source Code
+### Firmware
 
 :link: **[Implantables-PG4-Application on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-PG4-Application)**
 

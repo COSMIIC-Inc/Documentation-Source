@@ -22,7 +22,9 @@ The port plug body consists of a PEEK rod cut to length and shaped to fit into t
 
 ---
 
-## Mechanical Design Files and Drawings
+## Source Files
+
+### Mechanical Design and Drawings
 
 Drawing of the port plug is available on the COSMIIC GitHub here:
 

@@ -24,22 +24,18 @@ The BP is connected to the NNP network through a single network cable. The BP ga
 
 ---
 
-## Documentation
+## Source Files
 
-### Mechanical Design Files and Drawings
+### Mechanical Design and Drawings
 All files and drawings for the design of the Biopotential Recording Module are available on the COSMIIC GitHub here:
 
 :link: **[Implantables-BP2-Hardware/"Mechanical Design CAD Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-BP2-Hardware/tree/main/Mechanical%20Design%20CAD%20Files)**
 
----
-
-## PCB Files
+### PCB
 
 :link: **[Implantables-BP2-Hardware/"NNP-DWG-165-001-000 PCB Files" on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-BP2-Hardware/tree/main/NNP-DWG-165-001-000%20BP2%20PCB%20Files)**
 
----
-
-## Firmware Source Code
+### Firmware
 
 :link: **[Implantables-BP2-Application on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Implantables-BP2-Application)**
 

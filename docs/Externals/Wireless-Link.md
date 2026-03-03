@@ -23,7 +23,9 @@ This code is based on:
 
 ---
 
-## Firmware Source Code
+## Source Files
+
+### Firmware
 
 :link: **[Externals-WirelessLink-Application on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Externals-WirelessLink-Application)**
 
@@ -31,18 +33,20 @@ Guidance on the build and flash process are below.
 
 ---
 
-## Development Environment
+## Documentation
+
+### Development Environment
 For instructions on installing VS Code and nRF Connect SDK see: **https://academy.nordicsemi.com/courses/nrf-connect-sdk-fundamentals/**
 
 * nRF Connect for VS Code Extension Pack
 * Toolchanin/SDK v3.1.1
 * VS Code  v1.105.1 
 
-### Open Application
+#### Open Application
 Use the `Externals-WirelessLink-Application/wirelesslink` directory as the project folder in VS Code. Open the nRF Connect extension in the sidebar. Under the Welcome dropdown, click "Open an existing application" and select the "wirelesslink" folder in the file explorer.
 ![open app](./img/OpenApplication.JPG)
 
-### Build Configuration
+#### Set Build Configuration
 Under the Applications dropdown, set the board to `cosmiic_wireless_link_nrf5340_cpuapp` and enable debug options
 ![build config](./img/BuildConfig.JPG)
 
@@ -51,9 +55,9 @@ If the custom boards option does not appear, add your `boards` folder to BOARD_R
 
 ---
 
-## Flashing and Debugging
+### Flashing and Debugging
 
-### Hardware Requirements
+#### Hardware Requirements
 The Wireless Link (standalone) is intended to operate at 1.8V unless the 1V8_EN solder bridge trace is cut.  If operating at 1.8V, use the nRF7002DK (PCA10143) to Flash and Debug because it also uses 1.8V.
 ![nRF7002DK-wirelesslink](./img/nRF7002DK-wirelesslink.JPG)
 
@@ -62,7 +66,7 @@ The WirelessLink in the SmartCharger operates at 3.3V and must have the 1V8_EN s
 
 You will also need a custom cable to connect the Wireless Link JTAG lines (GND, VCC, RESET, SWCLK, SWDIO) to the DK
 
-### Serial Recovery and Device Firmware Update Mode (USB DFU Mode)
+#### Serial Recovery and Device Firmware Update Mode (USB DFU Mode)
 New firmware can be uploaded to the Wireless Link without using the JTAG link. To load new firmware onto the Wireless Link / Smart Charger using the DFU Mode:
 * Download AuTerm (https://github.com/thedjnK/AuTerm/releases), Version 0.36.
 * Enter DFU mode by holding SW2 (button1, on the right) while plugging in the board. The Green LED should turn on and stay solid.
@@ -85,13 +89,13 @@ New firmware can be uploaded to the Wireless Link without using the JTAG link. T
 
 :::
 
-### Debugging
+#### Debugging
 Debug messages can be viewed in JLink RTT Viewer. 
 ![RTT Viewer](./img/RTTViewer.JPG)
 
 ---
 
-## Pin definitions
+### Pin definitions
 
 :::tip
 All GPIO can be used as I2C, UART, SPI, or PWM.
@@ -152,7 +156,7 @@ Primary function is as currently configured in board files.  Overlays can be use
 | P1.14 | LED_RED | GPIO | expansionport, LED |
 | P1.15 | CC1101_CLK | shareable SPI1_SCK | expansionport, charger IO connector (optB)  |
 
-### Peripherals
+#### Peripherals
 * USB/UART
     * USB CDC_ACM Virtual Serial Port functionality is implemented voer the USB D+/D- pins
     * UART0 (TX=P0.26, RX=P0.21) will be used for UART (duplicate of USB functionality for speedgoat/UART/RS-232 interface)
@@ -179,7 +183,7 @@ Primary function is as currently configured in board files.  Overlays can be use
 
 ---
 
-## Button Functions
+### Button Functions
 * Buttons can be programmed to perfrom any API function, short press, long press
 * If nothing programmed, default long press function on both buttons is to enter sleep state
 * While in sleep state, either button will wake  
@@ -189,16 +193,16 @@ Primary function is as currently configured in board files.  Overlays can be use
 
 ---
 
-## LED Indicators
+### LED Indicators
 
-### LEDs - Wireless Link Mode
+#### LEDs - Wireless Link Mode
 * Blue LED blinking - indicates BLE advertising
 * Ble LED solid - BLE connected
 * Green LED solid - Serial recovery mode
 * Green blink - MedRadio Response received
 * Red blink - MedRadio Response timeout or bad packet
 
-### LEDs - Charger Mode
+#### LEDs - Charger Mode
 * Red LED - Error
 * Green LED blinking - Charging Implant
 * Green LED solid - Implant fully charged
@@ -206,23 +210,23 @@ Primary function is as currently configured in board files.  Overlays can be use
 
 ---
 
-## User Storage (NVS)
+### User Storage (NVS)
 * Button actions, MedRadio settings, and Charger settings are stored in user_storage partition
 
 ---
 
-## Storage (NVS)
+### Storage (NVS)
 * BLE bonding data is stored in storage partition
 
 ---
 
-## BLE Pairing/Bonding
+### BLE Pairing/Bonding
 * If security is enabled, the WirelessLink requires a passkey to pair/bond.  The passkey can be optained through the API (requires USB or UART connection).  If bonds are deleted on the Wireless Link, make sure to delete any bonding information on the host device as well.
 
 ---
 
-## API
-### Packet format
+### API
+#### Packet format
 The packet format is the same whether or not the packet is sent via BLE, USB, or UART
 
 |header| |                                             |payload|
@@ -231,7 +235,7 @@ The packet format is the same whether or not the packet is sent via BLE, USB, or
 |0xFF    | seebelow|  lengthOfPacket (up to 255)|    up to 252 bytes|
 multiple bytes are presented Little Endian
 
-### Commands
+#### Commands
 
 | NAME | CMD    |  bytesToWL | bytesFromWL  |Description|
 |---|---|---|---|---|  
@@ -325,13 +329,13 @@ multiple bytes are presented Little Endian
 
 ---
 
-## Future updates:
+### Future updates:
 * Some of the GPIO is defined in wlgpio.c/h and the generic GPIO API is used.  These GPIO definitions may be moved to the devicetree
 * The sensor thread and ISM330IS is not currently enabled.  The sensor API could be used with a driver implemented for ISM330IS.  However, the sensor API does not directly supprt some of the advanced functions (ISPU, quaternion output).  We will likely implement I2C generic code without a driver
 * The CC1101 is implemented without a driver
 * The Charger I2C devices are implemented without drivers
 * Charger vs Wireless link is #define in main.c.  May move to CONFIG in prj.comf or build directive
 
-## Coming Soon...
+### Coming Soon...
 
 Source files for PCB design are on the way...
