@@ -31,6 +31,16 @@ This code is based on:
 
 Guidance on the build and flash process are below.
 
+:::warning note
+
+Make sure to toggle `#define WL_IN_CHARGER` in `wirelesslink/src/cmdhandler.h` to orient the firmware build: `false` for use as a standalone Wireless Link or `true` for use in the Smart Charger
+
+:::
+
+### Mechanical Design and Drawings
+
+The Wireless Link is included in the Smart Charger hardware. The source files for the full COSMIIC Smart Charger design and assembly, including the Wireless Link, will be found here on the COSMIIC GitHub :link: **[Externals-SmartCharger-Hardware on COSMIIC GitHub](https://github.com/COSMIIC-Inc/Externals-SmartCharger-Hardware)**
+
 ---
 
 ## Documentation
@@ -254,7 +264,7 @@ multiple bytes are presented Little Endian
 |WL_PMBOOT_READ              |0x27|    6    |    0        |  Send 4 addr bytes + 2 size bytes.  Copies PM flash to WL image                            |
 |WL_PMFILE_READ              |0x28|    7    |    0        |  Send 4 addr bytes + 2 size bytes + 1 file byte.  Copies PM file data to WL image          |
 |WL_PMSCRIPT_WRITE           |0x29|         |             | Not yet implemented |                                                                      |
-|WL_SET_BUTTON_ACTION        |0x30|    1+N  |    0        |  Send 1 action index + N packet bytes to execute. Action index (0=button1 short, 1=button2 short, 2=button1 long, 3=button2 long)    |
+|WL_SET_BUTTON_ACTION        |0x30|    1+N  |    0        |  Send an action index + N packet bytes to execute. Action index (0=button1 short, 1=button2 short, 2=button1 long, 3=button2 long)    |
 |WL_GET_BUTTON_ACTION        |0x31|    1    |    N        |  Read back for above                                                                                                                 |
 |WL_SET_BUTTON_ACTION_TEMP   |0x32|         |             | Not yet implemented, temporary version of above (not saved in flash)                                                                 |
 |WL_SET_IMU_MODE             |0x33|    1    |    0        |  Currently enables or disables accel task.  Sets one of the predetermined IMU modes (accel, gyro, accel+gyro, accel+gyro+ispu)       |
@@ -267,8 +277,8 @@ multiple bytes are presented Little Endian
 |WL_GET_IMU_REGISTER         |0x3A|         |             | Not yet implemented. Read an IMU register directly (Low Level)                                                                       |
 |WL_SET_IMU_REGISTER         |0x3B|         |             | Not yet implemented. Write an IMU register directly (Low Level)                                                                      |
 |WL_SET_LED_MODE             |0x3C|    1    |    0        |  Set one of the predetermined LED modes: BLUE_LED_BLE_ADV=BIT0, GREEN_LED_RADIO_RESPONSE=BIT1, RED_LED_RADIO_ERROR=BIT2, LED_CHARGER=BIT3, LED_MANUAL=BIT6, LED_AUDIO_OFF=BIT7   |
-|WL_GET_LED_MODE             |0x3D|    0    |    1        |   Read back for above                                                                                                                                                            |
-|WL_SET_LED_MODE_TEMP        |0x3C|         |             | Not yet implemented.                                                                                                                                                           |
+|WL_GET_LED_MODE             |0x3D|    0    |    1        |   Read back for above |
+|WL_SET_LED_MODE_TEMP        |0x3C|         |             | Not yet implemented.      |
 |WL_SET_LEDS                 |0x3F|    3    |    0        |  Force the LEDs to a specific state.  LED Mode must be LED_MANUAL.  Red, Green, Blue                                                                                             |
 |WL_GET_LEDS                 |0x40|         |             | Not yet implemented.  Read the current LED state                                                                                                                                 |
 |WL_GET_CHARGE_STATUS        |0x41|    0    |    1        |  Read MCP73833 charging status.  BIT0=PowerGood (on USB), BIT1=STAT1 (charging), BIT2=STAT2 (done charging)                                                                      |
@@ -278,23 +288,23 @@ multiple bytes are presented Little Endian
 |WL_BLE_STOP_ADV             |0x45|    0    |    0        |  Stop advertising                                                                                                                                                                |
 |WL_BLE_GET_ADC              |0x46|    0    |    2        |  Returns 2 bytes (battery voltage in mV)                                                                                                                                         |
 |**ACCESS POINT**            |    |         |             | |
-|AP_SEND_RECV_MSG            |0x47|   N     |   M+2       | Send the implant a message and await response (or timeout).  Include everything to send over radio except address.  Returns radio response except address (appends RSSI/CRC/LQI).    
-|AP_SET_RADIO_SETTINGS	     |0x48|   7     |   7         | Write the MedRadio settings: AP/PM addresses and fixed channel, WOR settings and timeouts (saved to flash)
-|AP_GET_RADIO_SETTINGS  	 |0x49|   0     |   7         | localAddr, RemoteAddr, Chan, TXpower, WORInt, RXtimeout, Retries
-|AP_SET_RADIO_SETTINGS_TEMP  |0x4A|   7     |   7         | Write the MedRadio settings: AP/PM addresses and fixed channel, WOR settings and timeouts (temporary)
-|AP_CLEAR_CHANNEL_SEARCH     |0x4B|   1     |   2         | Send dwell time (1 byte) in 10ms increments (1=10ms, 250=25s) Returns clearest channel + RSSI (int8_t)
-|AP_SET_SESSION_TIME         |0x4C|   1     |   0         | Set time since session lasts (0 to disable Clear Channel Search), 5 for MedRadio protocol
-|AP_GET_SESSION_TIME_LEFT    |0x4D|   0     |   2         | Get time since last MedRadio RX 
+|AP_SEND_RECV_MSG            |0x47|   N     |   M+2       | Send the implant a message and await response (or timeout).  Include everything to send over radio except address.  Returns radio response except address (appends RSSI/CRC/LQI). |
+|AP_SET_RADIO_SETTINGS	     |0x48|   7     |   7         | Write the MedRadio settings: AP/PM addresses and fixed channel, WOR settings and timeouts (saved to flash) |
+|AP_GET_RADIO_SETTINGS  	 |0x49|   0     |   7         | localAddr, RemoteAddr, Chan, TXpower, WORInt, RXtimeout, Retries |
+|AP_SET_RADIO_SETTINGS_TEMP  |0x4A|   7     |   7         | Write the MedRadio settings: AP/PM addresses and fixed channel, WOR settings and timeouts (temporary)  |
+|AP_CLEAR_CHANNEL_SEARCH     |0x4B|   1     |   2         | Send dwell time (1 byte) in 10ms increments (1=10ms, 250=25s) Returns clearest channel + RSSI (int8_t) |
+|AP_SET_SESSION_TIME         |0x4C|   1     |   0         | Set time since session lasts (0 to disable Clear Channel Search), 5 for MedRadio protocol |
+|AP_GET_SESSION_TIME_LEFT    |0x4D|   0     |   2         | Get time since last MedRadio RX |
 |AP_SET_SESSION_MAINTAIN     |0x4E|   1     |   0         | 1=maintain (if sessiontime>0) 0, don't maintaitn Not yet implemented.    Read back for above
-|AP_ENCRYPTION               |0x4F|  1      |   0         | Enable/disable encryption
-|AP_RESTORE_RADIO            |0x50|  1      |    0        |  0=Bootloader, 1=App (from flash)
-|**CHARGER**                 |    |         |             |     |
+|AP_ENCRYPTION               |0x4F|  1      |   0         | Enable/disable encryption |
+|AP_RESTORE_RADIO            |0x50|  1      |    0        |  0=Bootloader, 1=App (from flash) |
+|**COIL DRIVE**              |    |         |             |     |
 |CD_SET_PERIOD               |0x52|    4    |    0        |  Set coil period in ns (nominally 3.5kHz for NNP)     
 |CD_GET_PERIOD               |0x53|    0    |    4        |  Set coil period in ns (nominally 3.5kHz for NNP)  
 |CD_START_DRIVE              |0x54|    0    |    0        |  Turn on Coil (if DCDC on)    
 |CD_STOP_DRIVE               |0x55|    0    |    0        |  Turn off Coil (if DCDC on)  
 |CD_GET_COIL_POWER           |0x56|    0    |    4        |  Read coil drive power 2 current bytes (int16, mA) + 2 voltage bytes (uint16, mV) 
-|CD_GET_CHARGER_POWER        |0x57|    0    |    4        |  Read system power     2 current bytes (int16, mA) + 2 voltage bytes (uint16, mV)  Read DC voltage input of coil drive   
+|CD_GET_CHARGER_POWER        |0x57|    0    |    4        |  Read system power     2 current bytes (int16, mA) + 2 voltage bytes (uint16, mV)  Read DC voltage input of coil drive |
 |CD_GET_THERMISTOR           |0x58|    0    |    2        |  Read Thermistor (not for MCU coil)  2 bytes (in 0.1degC)               |
 |CD_GET_COIL_CONNECT         |0x59|         |             | Not yet implemented.  Read coil connection status (not for MCU coil)    |
 |CD_GET_SERIAL               |0x5E|         |             | Not yet implemented.                          |
@@ -307,35 +317,34 @@ multiple bytes are presented Little Endian
 |CD_SET_RTC                  |0x71|    7    |    0        |  sec, min, hour, weekday, day, month, year|
 |CD_GET_PARAMS               |0x72|         |             | |
 |CD_SET_PARAMS               |0x73|         |             | |
-|**SMART COIL (coil UART)**  |    |         |             | |
-|commands forward cmd and payload on the smartcoil and back
-|COIL_GET_THERMISTOR_1       |0x78|         |             | |
-|COIL_GET_THERMISTOR_2       |0x79|         |             | |
-|COIL_GET_PRODUCT_ID         |0x80|         |             | |
-|COIL_ACCEL_OFF              |0x7A|         |             | |
-|COIL_ACCEL_ON               |0x7B|         |             | |
-|COIL_GET_ACCEL              |0x7C|         |             | |
-|COIL_GET_PRODUCT_ID         |0x80|         |             | |
-|COIL_SET_LED                |0x81|         |             | |
+|**CHARGER**                 |    |         |             | |
+|CHG_GET_CHARGEMODE          |0xA0|    0    |   1         | |
+|CHG_SET_CHARGEMODE          |0xA1|    1    |   0         | |
+||||| CHARGER_MODE_NONE	0 CHARGER_MODE_CLOCK	1 CHARGER_MODE_CHARGE	2  CHARGER_MODE_TUNE	3 CHARGER_MODE_DETECT	4 CHARGER_MODE_POWERDOWN	5 CHARGER_MODE_CHARGE_NOFEEDBACK	6 CHARGER_MODE_DISPLAY_PASSKEY	7 CHARGER_MODE_DISPLAY_ERASEBONDS	8 |
+|**SD CARD**                 |    |         |             | |
 |These SD card commands are for testing and may be removed | | | | |
 |SD_WRITE                    |0x90|   1+N   |   1         | 1 lenToWrite (N) byte + N data bytes (up to 251). Returns 1 if successful, 0 otherwise  |
 |SD_READ                     |0x91|    5    |   N         | 4 addr bytes + 1 lenToRead (N) byte.  Returns N bytes (up to 252)                       |
 |SD_INIT                     |0x92|    0    |   0         | Init SD Card                                                                            |
 |SD_DIR                      |0x93|    0    |   0         | Dir info visible in debug terminal only                                                 |
 |SD_GET_LOG_LENGTH           |0x94|    0    |   4         | 4 length byte (uint32)                                                                  |
-|SD_FLUSH_LOG                |0x95|    0    |   1         | Returns 1 if successful, 0 otherwsie                                                    |
-|CHG_GET_CHARGEMODE          |0xA0|    0    |   1         | |
-|CHG_SET_CHARGEMODE          |0xA1|    1    |   0         | |
+|SD_FLUSH_LOG                |0x95|    0    |   1         | Returns 1 if successful, 0 otherwsie |
+|**SMART COIL (coil UART)**  |    |         |             | |
+|commands forward cmd and payload on the smartcoil and back
+|COIL_GET_THERMISTOR_1       |0x78|         |             | Not yet implemented. |
+|COIL_GET_THERMISTOR_2       |0x79|         |             | Not yet implemented. |
+|COIL_GET_PRODUCT_ID         |0x80|         |             | Not yet implemented. |
+|COIL_ACCEL_OFF              |0x7A|         |             | Not yet implemented. |
+|COIL_ACCEL_ON               |0x7B|         |             | Not yet implemented. |
+|COIL_GET_ACCEL              |0x7C|         |             | Not yet implemented. |
+|COIL_GET_PRODUCT_ID         |0x80|         |             | Not yet implemented. |
+|COIL_SET_LED                |0x81|         |             | Not yet implemented. |
 
 ---
 
-### Future updates:
+## Future updates:
 * Some of the GPIO is defined in wlgpio.c/h and the generic GPIO API is used.  These GPIO definitions may be moved to the devicetree
 * The sensor thread and ISM330IS is not currently enabled.  The sensor API could be used with a driver implemented for ISM330IS.  However, the sensor API does not directly supprt some of the advanced functions (ISPU, quaternion output).  We will likely implement I2C generic code without a driver
 * The CC1101 is implemented without a driver
 * The Charger I2C devices are implemented without drivers
 * Charger vs Wireless link is #define in main.c.  May move to CONFIG in prj.comf or build directive
-
-### Coming Soon...
-
-Source files for PCB design are on the way...
